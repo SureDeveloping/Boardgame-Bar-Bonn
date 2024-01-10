@@ -1,5 +1,38 @@
 # ReadME - Project Intructution
 Portfolio Project 1 – User SureDeveloping – Code Institute
+
+## Contents 
+[Contens](#contens) \
+[User Experience (UX)](#user-experience) \
+[Initial Situation](#initial-situation) \
+[User Story](#user-story)\
+[Design](#design) \
+[Color Scheme](#color-scheme) \
+[Typography](#typography) \
+[Imagery](#imagery) \
+[Wireframe](#wireframe) \
+[Features](#features) \
+[Accessibility](#accessibility) \
+[Technologies Used](#technologies-used) \
+[Software and frameworks Used](#Software-and-frameworks-used) \
+[Deployment & Local Development](#deployment-&-Local-development) \
+[Deployment](#deployment) \
+[Local Development](#local-development) \
+[Testing](#testing) \
+[Manual Testing](#manual-testing) \
+[Chrom Developer Tools](#chrom-developer-tools) \
+[Slack peer groupe rewiew](#slack-peer-groupe-rewiew) \
+[Wave Chrom extension](#wave-chrom-extension) \
+[W3C Validator](#w3c-validator) \
+[Solved Bugs](#solved-bugs) \
+[Known unsolved Bugs](#known-unsolved-bugs) \
+[Credits](#credits) \
+[Code Used](#code-used) \
+[Content on the website](#content-on-the-website) \
+[Media](#media) \
+[Learning Materials](#learning-materials) \
+[Acknowledgments](#acknowledgments)
+
 ## User Experience (UX)
 ### Initial Situation
 I was hired by the operator of the Boardgame Bar Bonn to create a website for their bar. The bar has a new concept that is currently unique in Bonn and is not yet known to many people. The bar has a large collection of games available for guests to borrow and play. The Boardgame Bar Bonn aims to become a permanent meeting place for all board game lovers and fans in Bonn and the surrounding area. It wants to create an incentive to try out new games and make new contacts with like-minded people.
@@ -39,7 +72,7 @@ The most important information is therefore the concept of the bar, opening hour
 - Would like to know what news there is. Offers or new games
 - Would like to make contact to reserve a table
 
-## Designnce
+## Design
 ### Color Scheme
 In consultation with the customer, the colors were based on the colors of the locale. Bright, friendly shades were chosen there. I used the website https://mycolor.space/ to find other matching colors for the base color.
 
@@ -116,7 +149,7 @@ The accessibility of the website is achieved through the following features.
 ### Languages Used
 HTML and CSS were used for this project.
 
-## Software and frameworks Used
+### Software and frameworks Used
 
 Balsamiq - To create a wireframe \
 Gitpod - To code the website \
@@ -162,7 +195,6 @@ To fork the Boardgame Bar Bonn repository: <span style="color:yellow"> PRÜFEN <
 6.	Press enter <span style="color:yellow"> PRÜFEN </span>
 
 ## Testing
-
 The page was tested on different ways and different errors came to light. These will now be discussed:
 
 ### Manual Testing:
@@ -197,19 +229,21 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
+
 ## Credits
 ### Code Used
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
-### Content
+### Content on the website
 The content of this project was written by Stephan Sure. The text was shortened and summarized with the help of ChatGPT3.5 because it was too long at the beginning. All content is imaginary and fictional.
 
-### Media <span style="color:yellow"> PRÜFEN </span> 
-    ![](LINK "Color palette3")
-    ![](LINK "Color palette3")
-    ![](LINK "Color palette3")
-    ![](LINK "Color palette3")
+### Media       
+<span style="color:yellow"> PRÜFEN </span> 
+    LINK   ![](LINK "Color palette3")\
+    LINK   ![](LINK "Color palette3")\
+    LINK   ![](LINK "Color palette3")\
+    LINK   ![](LINK "Color palette3")
 
 ### Learning Materials
 - All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
@@ -222,3 +256,6 @@ I like to Thank the follow person for the help during the project:
 
 This project is for educational use only and was created for the Code Institute Module of User Centric front end development
 Created by Stephan Sure
+
+
+
