@@ -50,7 +50,7 @@ Finally, I checked the contrast again with the page https://contrast-grid.eights
 ![](assets/images/readme-images/color3.webp "Color palette3")
 
 ### Typography
-Die Fonts stammen von Googlefonds was used for the following fonts:
+The fonts come from Googlefonds and were used for the following fonts:
 - PT Sans Narrow is used for headings on the site. It is a serif font.
 - PT Serif is used for the body text on the site. It is a sans-serif font.
 
@@ -59,9 +59,166 @@ Images used are from the site https://www.freepik.com/
 
 ### Wireframe
 I have created wireframes for mobile, tablet and desktop devices.
-Links 
-Links
-Links
 
+Links -  <span style="color:yellow"> Müssen noch erstellt werden </span> \
+Links - <span style="color:yellow"> Müssen noch erstellt werden </span> \
+Links - <span style="color:yellow"> Müssen noch erstellt werden </span> \
 
+### Features
+The website is planned as a multi-page project. These pages can be accessed via the navigation menu. There are the Home, News, Menu and Contat pages. 
+In addition, a thank you page has been created for sending a message.  <span style="color:yellow"> Wurde das Gemacht??? oder anders gelöst </span>
+- Feature of all pages:
+    - The header with a navigation bar is positioned in the top right corner. This navigation bar can be used to navigate the page. To the left is an icon of a pair of dice, matching the boardgames theme.  <span style="color:yellow"> Burger icon??? In the mobile view? </span>
 
+    - In addition, the footer is the same on all pages. The footer contains the address of the bar and the social media icon with links to instergram and facebook.
+
+- Home Page <span style="color:yellow"> PRÜFEN </span>
+    - Below the header is a background image with a view of the bar. On the picture you can read the words "Welcome at the BBB Boardgame Bar Bonn".
+    - The first section of the page is an About that briefly explains the bar and the concept.
+    - Followed by the 2nd section which draws attention to the news and invites you to follow a link there for more information.
+    - The 3rd section is an explanation of how to "plan your first visit". It is a 4 steps guide. Icons have been used here to lighten up the presentation, matching the points that are explained. The menu is link to a subpage and the list of the game collection to an external page. 
+    - The 4 section has information about the price in the bar. 
+    - The 5 section is the opening hours of the bar
+    - The 6 section is directions on how to find the bar.
+
+- News Page
+    - Below the header is a background image with a view of the bar. On the picture you can read the words "Boardgame Bar Bonn News". Below this, in the first section, is a text describing the last weekly offer with a corresponding picture. After that the previous offer can be seen in a separate section in the same scheme. The last section is the description of the latest new game on the site. Also with a detailed picture
+    - Burger icon??? In the mobile view? <span style="color:yellow"> PRÜFEN </span>
+
+- Menu Page:
+    - On the Menu page, you are greeted by the Menu heading. The menu page has 2 sections. The 1st section contains all drinks. Here are 3 lists divided into hot drinks, cold drinks and alcoholic drinks. The 2nd section contains the dishes on offer. These are divided into the 4 categories Burger&Pizza, Fingerfood, Sancks and Dips
+    - Burger icon??? In the mobile view? <span style="color:yellow"> PRÜFEN </span>
+
+- Contact Page.
+    - On the contact page there is a form in which you can enter your name, first name, e-mail address and telephone number. The phone number is optional. The other fields are mandatory. 
+    - Below this are radio buttons where you have to select the reason for the message. There is a choice. Reservation, Question Subscribe to newsletter, Request for a callback. This allows the messages to be pre-sorted by topic. This is followed by a text input field. With a send button underneath. Burger icon??? In the mobile view? <span style="color:yellow"> PRÜFEN </span>
+
+- Thank You Page.
+    - Thank you message for the transmitter of the night. "Thank you for your message, we will reply as soon as possible"
+    - Is there the <span style="color:yellow"> PRÜFEN </span>
+
+- Future Implementations.
+    - There should be more detailed pictures of the bar with the individual rooms in a page with the title "Our premises". These pictures will be taken by a professional photographer and were not yet available at the start of the project. There will also be a 3D tour of the bar so that customers can get a better impression before their visit. 
+    - A booking system is to be added where tables and seats can be booked and reserved online. This will make the staff's work easier and offer more convenience for guests, as they will receive a direct response and will not have to wait for feedback. At the same time, a member area is created. Java script and a backend are required for this.
+    - The games are recorded in a separate database and guests can search for specific categories and have new games suggested to them. The games can also be loaned out for a limited period of time so that guests can play the games at home. All games in the game library are to be presented in course presentations. In addition, the rules should be explained in a video which is linked to the database entry. These instructions will be linked to the games in the store via a QR code. The guest can therefore also scan the QR code in the store and watch the instructions and video.
+    - The belly system is also to be extended to the games. These should also be able to be reserved later for an additional charge. At the same time, it will be possible to determine which games are the most popular. These games can then be played several times and a ranking of the most played games can be published on the website. 
+    - If guests would like to purchase the games themselves in order to own one, an online store for board games is also planned to be linked to the website.
+
+### Accessibility
+The accessibility of the website is achieved through the following features.
+- By using semantic HTML
+- By using descriptive alt attributes for images
+- By providing information for screen readers when icons without text are used. <span style="color:yellow"> PRÜFEN </span>
+- By using good color contrast throughout the website
+- By ensuring that screen readers recognize that the website supports this and that this is indicated. <span style="color:yellow"> PRÜFEN </span>
+
+## Technologies Used
+### Languages Used
+HTML and CSS were used for this project.
+
+## Software and frameworks Used
+
+Balsamiq - To create a wireframe \
+Gitpod - To code the website \
+Git - For version control \
+Github - To store and deploy the website \
+Bootstrap - Did I use this? \ <span style="color:yellow"> PRÜFEN </span>
+Google Fonts - All fonts used are from google fonts \
+Font Awesome - All icons used are from Font Awesome \
+Google Dev Tools - For troubleshooting, testing and fixing bugs \
+Deepl - For translating text \
+ChatGPT3.5 - For summarizing self-written text content \
+Tiny PNG To compress images.  Did I do that? \ <span style="color:yellow"> PRÜFEN </span>
+Birme To change the image to webp format \
+Favicon.io Did I do that? \ <span style="color:yellow"> PRÜFEN </span>
+Am I Responsive? To check if the page is responsive \
+Shields.io To add badges to the README Did I do this? \ <span style="color:yellow"> PRÜFEN </span>
+
+## Deployment & Local Development
+### Deployment
+
+The live website was published via Github. Here are the instructions:
+
+1.	Log in (or sign up) to Github <span style="color:yellow"> PRÜFEN </span>
+2.	Search for the Boardgame-Bar-Bonn repository <span style="color:yellow"> PRÜFEN </span>
+3.	Use the Settings link <span style="color:yellow"> PRÜFEN </span>
+4.	Access the Pages section through the navigation bar on the left <span style="color:yellow"> PRÜFEN </span>
+5.	Within the Source section, opt for "main" from the branch selection menu, and choose "Root" from the folder selection menu <span style="color:yellow"> PRÜFEN </span>
+6.	Save your changes.  The active Github Pages site is now live and deployed at the displayed URL <span style="color:yellow"> PRÜFEN </span>
+
+### Local Development
+#### How to Fork
+To fork the Boardgame Bar Bonn repository: <span style="color:yellow"> PRÜFEN </span>
+1.	Log in (or sign up) to Github. <span style="color:yellow"> PRÜFEN </span>
+2.	Search for the project, SureDeveloping/Boardgame-Bar-Bonn <span style="color:yellow"> PRÜFEN </span>
+3.	Use the Fork button in the top right corner. <span style="color:yellow"> PRÜFEN </span>
+
+#### To clone the Boardgame Bar Bonn repository:
+1.	Log in (or sign up) to GitHub <span style="color:yellow"> PRÜFEN </span>
+2.	Search for the project, SureDeveloping/Boardgame-Bar-Bonn <span style="color:yellow"> PRÜFEN </span>
+3.	Use the code button and select if you would like to clone with HTTPS, SSH or GitHub CLI and copy the link <span style="color:yellow"> PRÜFEN </span>
+4.	Change the current working directory to the location you want to use for the cloned directory via the terminal <span style="color:yellow"> PRÜFEN </span>
+5.	Use the command 'git clone' and paste the link you copied in step 3 <span style="color:yellow"> PRÜFEN </span> 
+6.	Press enter <span style="color:yellow"> PRÜFEN </span>
+
+## Testing
+
+The page was tested on different ways and different errors came to light. These will now be discussed:
+
+### Manual Testing:
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+### Chrom Developer Tools
+
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+### Slack peer groupe rewiew:
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+### Wave Chrom extension
+To Check the accesibility  <span style="color:yellow"> PRÜFEN </span> 
+
+### Web Disability Simulator
+To Check if the side works also for disabled people <span style="color:yellow"> PRÜFEN </span> 
+
+### W3C Validator
+I used thz W3C calidator to check the HTML and the CSS code on all pages of the website of the project.
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+### Solved Bugs
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+### Known unsolved Bugs
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+## Credits
+### Code Used
+ - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+ - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+
+### Content
+The content of this project was written by Stephan Sure. The text was shortened and summarized with the help of ChatGPT3.5 because it was too long at the beginning. All content is imaginary and fictional.
+
+### Media <span style="color:yellow"> PRÜFEN </span> 
+    ![](LINK "Color palette3")
+    ![](LINK "Color palette3")
+    ![](LINK "Color palette3")
+    ![](LINK "Color palette3")
+
+### Learning Materials
+- All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
+- Block for selecting fonts on This site was built using [elementor.com](https://elementor.com/blog/font-pairing/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gad_source=1&gclid=CjwKCAiA-vOsBhAAEiwAIWR0TZQxN-AIz1eyDNUQYOHhJu9RspMr5r1hzE4jfTebOFsn_Fm1NPbsWhoC6N8QAvD_BwE)
+
+### Acknowledgments
+I like to Thank the follow person for the help during the project:
+-   My Code Institute Mentor Anthony Ugwu
+- The Tutor Support team at Code Institute
+
+This project is for educational use only and was created for the Code Institute Module of User Centric front end development
+Created by Stephan Sure
