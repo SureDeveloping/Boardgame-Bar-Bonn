@@ -164,7 +164,6 @@ Deepl - For translating text \
 ChatGPT3.5 - For summarizing self-written text content \
 Tiny PNG To compress images.  Did I do that? \ <span style="color:yellow"> PRÜFEN </span>
 Birme To change the image to webp format \
-Favicon.io Did I do that? \ <span style="color:yellow"> PRÜFEN </span>
 Am I Responsive? To check if the page is responsive \
 Shields.io To add badges to the README Did I do this? \ <span style="color:yellow"> PRÜFEN </span>
 
