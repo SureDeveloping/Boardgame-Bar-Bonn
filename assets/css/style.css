@@ -42,20 +42,22 @@ footer {
     background-color: #4F6359;
     box-shadow: 0 2px 2px black;
     color: white;  
-
-
-
-
-footer p {
-
-
-
+    
+footer li {   
+    color: white;  
+    
+}
+    
+#footer-adress {
+    display:flex;
+    text-align: center;
+    
 }
 
 
 
 
-
+/* styley social media Links */
 }
 #social-network-links {
     text-align: center;
@@ -63,6 +65,11 @@ footer p {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    color: white;
+
+}
+
+.social-icons {
     color: white;
 }
 
