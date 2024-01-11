@@ -158,6 +158,7 @@ Github - To store and deploy the website \
 Bootstrap - Did I use this? \ <span style="color:yellow"> PRÜFEN </span>
 Google Fonts - All fonts used are from google fonts \
 Font Awesome - All icons used are from Font Awesome \
+gauger.io/fonticon - To create a favicon
 Google Dev Tools - For troubleshooting, testing and fixing bugs \
 Deepl - For translating text \
 ChatGPT3.5 - For summarizing self-written text content \
@@ -232,6 +233,8 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
 
 ## Credits
 ### Code Used
+-   I used the Html code for the navbar from the Love running project.
+
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
@@ -248,14 +251,16 @@ The content of this project was written by Stephan Sure. The text was shortened 
 ### Learning Materials
 - All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
 - Block for selecting fonts on This site was built using [elementor.com](https://elementor.com/blog/font-pairing/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gad_source=1&gclid=CjwKCAiA-vOsBhAAEiwAIWR0TZQxN-AIz1eyDNUQYOHhJu9RspMr5r1hzE4jfTebOFsn_Fm1NPbsWhoC6N8QAvD_BwE)
+- How to build a website in german https://www.youtube.com/watch?v=9Byz4KfxCa4
+
 
 ### Acknowledgments
 I like to Thank the follow person for the help during the project:
 -   My Code Institute Mentor Anthony Ugwu
 - The Tutor Support team at Code Institute
 
-This project is for educational use only and was created for the Code Institute Module of User Centric front end development
-Created by Stephan Sure
+** This project is for educational use only and was created for the Code Institute Module of User Centric front end development
+Created by Stephan Sure **
 
 
 
