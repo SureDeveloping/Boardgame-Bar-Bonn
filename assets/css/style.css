@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -12,6 +15,7 @@
         felx-direction: colum;
         /* Standart text color */
         color: black;
+        font-family: 'PT Sans', sans-serif;
     }
 header {
     background-color: #9BB0A5;
