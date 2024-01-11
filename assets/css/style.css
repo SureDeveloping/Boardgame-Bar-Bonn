@@ -38,7 +38,8 @@ main {
 }
 
 footer {
-    background-color: #4F6359; 
+    background-color: #4F6359;
+    color: white; 
 
 }
 
@@ -60,7 +61,6 @@ footer {
     float: right;
     padding: 0 5px;  
     color:black;
-    
-    
+       
         
 }
