@@ -26,9 +26,7 @@ header {
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px black;
-    text-decoration: none;
-    color: black;
+    box-shadow: 0 2px 2px black;  
         
 }
 
@@ -40,34 +38,55 @@ main {
 
 footer {
     background-color: #4F6359;
+    box-shadow: 0 2px 2px black;
     color: white;  
 
+
+
+
+footer p {
+
+
+
 }
 
+
+
+
+
+}
 #social-network-links {
-
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
 }
-
-
 
 
 /* Styles the lopgo in the Header, Top Left*/
 #dice-logo {
-  padding-left: 1px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  height:50px;
-  width: auto;
-   
+  height: auto;
+  width: 30px;
+  font-size: ;
+  display: flex; 
+  align-items: center;
+  padding: 5px 0;
 }
+
+header a {
+    text-decoration: none; 
+    color: black;
+}
+
 
 /* Styles the Navbar in the Header*/
 #navbar li {
-    text-decoration: none;
     display: flex;
-    font-size: 110%;
+    font-size: 130%;
     float: right;
     padding: 0 5px;  
-    color:black;
+    
         
 }
