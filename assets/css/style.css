@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* General Styles of the Body*/
+    body {
+        min-height: 100vh;
+        display: flex;
+        felx-direction: colum;
+        /* Standart text color */
+        color: black;
+    }
 header {
     background-color: #9BB0A5;
 
@@ -12,7 +20,8 @@ header {
 
 main {
     background-color: #7AFAC4;
-
+    /* Enlarges the main element so that the footer is pushed downwards*/
+    flex: 1 0 auto;
 
 
 }
