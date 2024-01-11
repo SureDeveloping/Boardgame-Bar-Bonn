@@ -48,13 +48,11 @@ footer li {
     
 }
     
-#footer-adress {
+.footer-adress {
     display:flex;
-    text-align: center;
+    flex-direction: column;
     
 }
-
-
 
 
 /* styley social media Links */
@@ -66,6 +64,8 @@ footer li {
     justify-content: space-evenly;
     list-style-type: none;
     color: white;
+    text-align: center;
+    
 
 }
 
