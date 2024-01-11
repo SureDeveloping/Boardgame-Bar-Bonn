@@ -233,7 +233,9 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
 
 ## Credits
 ### Code Used
+-   I used the Asterisk wildcard selector from from the Love running project.
 -   I used the Html code for the navbar from the Love running project.
+
 
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 

@@ -1,3 +1,9 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 header {
     background-color: #9BB0A5;
@@ -5,21 +11,19 @@ header {
 }
 
 main {
-
+    background-color: #7AFAC4;
 
 
 
 }
 footer {
-    
+    background-color: #4F6359; 
 
 
 }
 
-
 id navbar {
     display: flex;
-    
-
+ 
 
 }
