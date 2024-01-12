@@ -62,18 +62,34 @@ header {
   }
 
 main {
-   /* background-color: #7AFAC4; */
+   background-color: #7AFAC4;
     /* Enlarges the main element so that the footer is pushed downwards*/
     flex: 1 0 auto;
+    margin-top: 4px;
     
 }
+
 /* Styling the Bar Image, Main Picture*/
 .main-image {
-    height: 800px;
+    height: 300px;
     width: 100%;
-    background: url("../images/bar-iamge.webp") no-repeat center center/cover;
+    background: url("../images/bar-image.webp") no-repeat center center/cover;
     position: relative;
+} 
+
+/* Styling the contact side*/
+#contact-introduction {
+    text-align: center;
 }
+
+#contact-header hr {
+    border: none;
+    height: 2px;
+    color: black;
+  background-color: black; 
+
+}
+
 
 
 
