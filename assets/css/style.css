@@ -29,6 +29,7 @@ header {
     box-shadow: 0 2px 2px black;  
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
+    order:0;
         
 }
 
@@ -53,8 +54,8 @@ footer {
 }
 
 #footer-contas {
+    width: 265px;
     margin: auto;
-    width: 270px;
     padding: 5px 0 10px;
 }
 
