@@ -91,11 +91,14 @@ main {
 
 
 /* Styling the contact side*/
-#contact-introduction {
+#contact-form {
     text-align: center;
 }
 
-#contact-header hr {
+
+
+
+#contact-form hr {
     border: none;
     height: 2px;
     color: black;
