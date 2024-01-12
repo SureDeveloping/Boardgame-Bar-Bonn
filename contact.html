@@ -55,27 +55,28 @@
             </h1>
             <hr>
 
-            <label for="first_name">First Name:*</label> <br>
-            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <label for="first_name">First Name:</label> <br>
+            <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Required" required>
                 
             <br>
 
-            <label for="last_name">Last Name:*</label> <br>
-            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <label for="last_name">Last Name:</label> <br>
+            <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Required" required>
 
             <br>
 
-            <label for="email_address">Email Address:*</label> <br>
-            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <label for="email_address">Email Address:</label> <br>
+            <input type="email" name="email_address" id="email_address" class="text-input" placeholder="Required" required>
                 
             <br>
 
             <label for="phone_number">Phone Numbre:</label> <br>
-            <input type="number" name="phone_number" id="phone_number" class="text-input">
+            <input type="number" name="phone_number" id="phone_number" class="text-input" placeholder="Not Required">
 
             <br>
-                <div class="radio-buttons">
-                    <div>
+                    <div class="radio-buttons">
+                    
+                        
                         <label for="reservation">Reservation</label>
                         <input type="radio" name="message_reason" id="reservation" value="reservation" required checked>
 
@@ -98,13 +99,13 @@
 
                         <label for="other">Other Reason</label>
                         <input type="radio" name="message_reason" id="other" value="other" required>
+                    
                     </div>
-                </div>
 
-                <div>  
-                    <label for="text">Please leave your Message hear:</label>
-                    <textarea id="text" name="text" cols="40" rows="10" required></textarea> 	
-                </div> 
+                    <div>  
+                        <label for="text">Please leave your Message hear:</label>
+                        <textarea id="text" name="text" cols="35" rows="8" placeholder="Required" required></textarea> 	
+                    </div> 
 
             <button type="submit" class="send-button">Submit your Message</button>
         </form>

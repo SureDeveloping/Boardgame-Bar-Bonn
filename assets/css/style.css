@@ -95,6 +95,13 @@ main {
     text-align: center;
 }
 
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
 
 
 
