@@ -47,29 +47,62 @@
         
         </section>
 
-        <section id="contact-header">
+        <section id="contact-form">
+
+        <form id="contact-form method="POST" action=href="index.html"> 
             <h1>
                 Please fill the form and send us your Message:
             </h1>
             <hr>
 
-            <label for="first_name">First Name:</label>
+            <label for="first_name">First Name*:</label> <br>
             <input type="text" name="first_name" id="first_name" class="text-input" required>
                 
             <br>
 
-            <label for="last_name">Last Name:</label>
+            <label for="last_name">Last Name*:</label> <br>
             <input type="text" name="last_name" id="last_name" class="text-input" required>
 
             <br>
 
-            <label for="email_address">Email Address:</label>
+            <label for="email_address">Email Address*:</label> <br>
             <input type="email" name="email_address" id="email_address" class="text-input" required>
                 
             <br>
 
-            <label for="phone_number">Phone Numbre:</label>
+            <label for="phone_number">Phone Numbre:</label> <br>
             <input type="number" name="phone_number" id="phone_number" class="text-input">
+
+            <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="reservation">Reservation</label>
+                        <input type="radio" name="message_reason" id="reservation" value="reservation" required checked>
+
+                        
+
+                        <label for="question">Question</label>
+                        <input type="radio" name="message_reason" id="question" value="question" required>
+
+                        
+
+                        <label for="newsletter">Subscribe to the Newsletter</label>
+                        <input type="radio" name="message_reason" id="newsletter" value="newsletter" required>
+
+                        
+
+                        <label for="callback">Request for Callback</label>
+                        <input type="radio" name="message_reason" id="callback" value="callback" required>
+
+                        
+
+                        <label for="other">Other Reason</label>
+                        <input type="radio" name="message_reason" id="other" value="other" required>
+                    </div>
+                </div>
+
+            <button type="submit" class="send-button">Submit your Message</button>
+        </form>
 
         </section>
 

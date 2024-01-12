@@ -239,7 +239,8 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
 ### Code Used
 -   I used the Asterisk wildcard selector from from the Love running project.
 -   I used the Html code for the navbar from the Love running project.
--   i used the Code for the social links in the footer from the Love running project
+-   i used the Code for the social links in the footer from the Love running project.
+-   I got the idea for my contact from the sign up form of the Love Running project.
 
 
 
