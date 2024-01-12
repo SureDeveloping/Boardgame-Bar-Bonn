@@ -29,15 +29,53 @@ header {
     box-shadow: 0 2px 2px black;  
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
-    order:0;
-        
+    order:0;    
 }
 
+/* Styles the lopgo in the Header, Top Left*/
+#dice-logo {
+    height: auto;
+    width: 30px;
+    display: flex; 
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  header a {
+      text-decoration: none; 
+      color: black;
+  }
+  
+  
+  /* Styles the Navbar in the Header*/
+  #navbar li {
+      display: flex;
+      font-size: 130%;
+      float: right;
+      padding: 0 5px;       
+  }
+  
+  /* Styles the current open, and visible page link*/
+  
+  .current-page {
+      background-color: #22B5FF;
+  }
+
 main {
-    background-color: #7AFAC4;
+   /* background-color: #7AFAC4; */
     /* Enlarges the main element so that the footer is pushed downwards*/
     flex: 1 0 auto;
+    
 }
+/* Styling the Bar Image, Main Picture*/
+.main-image {
+    height: 800px;
+    width: 100%;
+    background: url("../images/bar-iamge.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+
 
 
 
@@ -74,34 +112,4 @@ footer {
 
 .social-icons, Footer {
     color: white;
-}
-
-
-/* Styles the lopgo in the Header, Top Left*/
-#dice-logo {
-  height: auto;
-  width: 30px;
-  display: flex; 
-  align-items: center;
-  padding: 5px 0;
-}
-
-header a {
-    text-decoration: none; 
-    color: black;
-}
-
-
-/* Styles the Navbar in the Header*/
-#navbar li {
-    display: flex;
-    font-size: 130%;
-    float: right;
-    padding: 0 5px;       
-}
-
-/* Styles the current open, and visible page link*/
-
-.current-page {
-    background-color:  #22B5FF;
 }
