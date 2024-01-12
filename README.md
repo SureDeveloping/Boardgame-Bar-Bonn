@@ -222,7 +222,10 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Solved Bugs
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
+- I tried to style the links and the logo in the header and to use black colors. This was not successful with an Id. Here I had to address the <a> element for the logo directly to solve the problem
+
+- I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the <a> element.
+
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Known unsolved Bugs
@@ -234,6 +237,9 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
 ### Code Used
 -   I used the Asterisk wildcard selector from from the Love running project.
 -   I used the Html code for the navbar from the Love running project.
+-   i used the Code for the social links in the footer from the Love running project
+
+
 
 
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
