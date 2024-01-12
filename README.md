@@ -93,6 +93,8 @@ Images used are from the site https://www.freepik.com/
 ### Wireframe
 I have created wireframes for mobile, tablet and desktop devices.
 
+Just screen shots from the onld and new version!
+
 Links -  <span style="color:yellow"> Müssen noch erstellt werden </span> \
 Links - <span style="color:yellow"> Müssen noch erstellt werden </span> \
 Links - <span style="color:yellow"> Müssen noch erstellt werden </span> \
@@ -222,9 +224,9 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Solved Bugs
-- I tried to style the links and the logo in the header and to use black colors. This was not successful with an Id. Here I had to address the <a> element for the logo directly to solve the problem
+- I tried to style the links and the logo in the header and to use black colors. This was not successful with an Id. Here I had to address the a Element for the logo directly to solve the problem
 
-- I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the <a> element.
+- I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the a Element.
 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 

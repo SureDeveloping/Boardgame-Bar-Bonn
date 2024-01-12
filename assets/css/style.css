@@ -97,7 +97,11 @@ header a {
     display: flex;
     font-size: 130%;
     float: right;
-    padding: 0 5px;  
-    
-        
+    padding: 0 5px;       
+}
+
+/* Styles the current open, and visible page link*/
+
+.current-page {
+    background-color:  #22B5FF;
 }
