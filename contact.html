@@ -49,7 +49,7 @@
 
         <section id="contact-form">
 
-        <form id="contact-form" method="POST" action=href="index.html"> 
+        <form id="contact-form" method="get" action="thanks.html"> 
             <h1>
                 Please fill the form and send us your Message:
             </h1>
@@ -76,33 +76,34 @@
             <br>
                     <div class="radio-buttons">
                     
-                        
+                        <div class="radio-button-label">
                         <label for="reservation">Reservation</label>
-                        <input type="radio" name="message_reason" id="reservation" value="reservation" required checked>
-
+                        <input type="radio" name="message_reason" id="reservation" value="reservation" class="radio_input" required checked>
+                        </div>  
                         
-
+                        <div class="radio-button-label">
                         <label for="question">Question</label>
-                        <input type="radio" name="message_reason" id="question" value="question" required>
-
+                        <input type="radio" name="message_reason" id="question" value="question" class="radio_input" required>
+                        </div>
                         
-
+                        <div class="radio-button-label">
                         <label for="newsletter">Subscribe to the Newsletter</label>
-                        <input type="radio" name="message_reason" id="newsletter" value="newsletter" required>
-
+                        <input type="radio" name="message_reason" id="newsletter" value="newsletter" class="radio_input" required>
+                        </div>
                         
-
+                        <div class="radio-button-label">
                         <label for="callback">Request for Callback</label>
-                        <input type="radio" name="message_reason" id="callback" value="callback" required>
-
+                        <input type="radio" name="message_reason" id="callback" value="callback" class="radio_input" required>
+                        </div>
                         
-
+                        <div class="radio-button-label">
                         <label for="other">Other Reason</label>
-                        <input type="radio" name="message_reason" id="other" value="other" required>
-                    
+                        <input type="radio" name="message_reason" id="other" value="other" class="radio_input" required>
+                        </div>
+
                     </div>
 
-                    <div>  
+                    <div id="leave-message">  
                         <label for="text">Please leave your Message hear:</label>
                         <textarea id="text" name="text" cols="35" rows="8" placeholder="Required" required></textarea> 	
                     </div> 
