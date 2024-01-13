@@ -64,9 +64,7 @@ header {
 main {
    background-color: #7AFAC4;
     /* Enlarges the main element so that the footer is pushed downwards*/
-    flex: 1 0 auto;
-    margin-top: 4px;
-    
+    flex: 1 0 auto;    
 }
 
 /* Styling the Bar Image, Main Picture*/
@@ -83,7 +81,6 @@ main {
     width: 100%;
     background: url("../images/thank-you.webp") no-repeat center center/cover;
     position: relative;
-    flex: 0 0 auto;
 } 
 
 .thanks-message {
