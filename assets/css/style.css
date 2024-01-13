@@ -67,7 +67,7 @@ main {
     flex: 1 0 auto;    
 }
 
-/* Styling the Bar Image, Main Picture*/
+/* Styling the Bar Image with Headline Main Picture*/
 .main-image {
     height: 300px;
     width: 100%;
@@ -75,7 +75,28 @@ main {
     position: relative;
 } 
 
-/* Styling the Bar Thanks Image, For Contact For,*/
+.headline-div {
+    max-width: 100px;
+   
+}
+
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+}
+
+/* Background color with 50% opacity*/
+.headline-main-image {
+    text-align: center;
+    background-color: #7AECFF80;
+    font-size: 130%;
+    padding: 5px;
+}
+
+
+
+
+/* Styling the Thanks Image, For the Contact page */
 .thanks-image {
     height: 450px;
     width: 100%;
@@ -86,8 +107,6 @@ main {
 .thanks-message {
     text-align: center;
 }
-
-
 
 /* Styling the contact side*/
 #contact-form {
