@@ -133,6 +133,7 @@ In addition, a thank you page has been created for sending a message.  <span sty
     - Is there the <span style="color:yellow"> PRÜFEN </span>
 
 - Future Implementations.
+    - At first I had planned to create my own news page. Due to my own schedule for this project I have discarded this.. Only the two latest news will be listed on the homepage. The own page will be realized in the future. 
     - There should be more detailed pictures of the bar with the individual rooms in a page with the title "Our premises". These pictures will be taken by a professional photographer and were not yet available at the start of the project. There will also be a 3D tour of the bar so that customers can get a better impression before their visit. 
     - A booking system is to be added where tables and seats can be booked and reserved online. This will make the staff's work easier and offer more convenience for guests, as they will receive a direct response and will not have to wait for feedback. At the same time, a member area is created. Java script and a backend are required for this.
     - The games are recorded in a separate database and guests can search for specific categories and have new games suggested to them. The games can also be loaned out for a limited period of time so that guests can play the games at home. All games in the game library are to be presented in course presentations. In addition, the rules should be explained in a video which is linked to the database entry. These instructions will be linked to the games in the store via a QR code. The guest can therefore also scan the QR code in the store and watch the instructions and video.
@@ -224,9 +225,11 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Solved Bugs
-- I tried to style the links and the logo in the header and to use black colors. This was not successful with an Id. Here I had to address the a Element for the logo directly to solve the problem
+- I tried to style the links and the logo in the header and to the cplor black. This was not successful with an Id. Here I had to address the a Element for the logo directly to solve the problem
 
 - I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the a Element.
+
+- I made a mistake when linking to a feedback page that the user should see after filling out the contact form. Instead of using the method="get", I had incorrectly used post. Through research in Slack I came up with this solution.
 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
