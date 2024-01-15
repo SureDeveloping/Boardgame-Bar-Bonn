@@ -100,12 +100,29 @@ h1 {
 #about-text {
     text-align: center;
     padding: 5px;
-    border-radius: 2px;
-    border-color: black;
+    border: 3px solid black;
+    border-radius: 15px;
     background-color: #7AECFF;
-    margin: 20px 0px;
-
+    margin: 20px 10px;
 }
+
+#news {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+}
+#news img {
+        width: 240px;
+        height: auto;
+        padding: 5px;
+        border-radius: 15px;
+}
+
+
+
 
 
 
