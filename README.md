@@ -225,6 +225,8 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Solved Bugs
+- The textfilds in the form had no padding. Thatwhy you could not read the text very well. This came up in a mentoring session. And I added a pedding to all those input filds.
+
 - I tried to style the links and the logo in the header and to the cplor black. This was not successful with an Id. Here I had to address the a Element for the logo directly to solve the problem
 
 - I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the a Element.
@@ -265,6 +267,7 @@ The content of this project was written by Stephan Sure. The text was shortened 
 - All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
 - Block for selecting fonts on This site was built using [elementor.com](https://elementor.com/blog/font-pairing/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gad_source=1&gclid=CjwKCAiA-vOsBhAAEiwAIWR0TZQxN-AIz1eyDNUQYOHhJu9RspMr5r1hzE4jfTebOFsn_Fm1NPbsWhoC6N8QAvD_BwE)
 - How to build a website in german https://www.youtube.com/watch?v=9Byz4KfxCa4
+- How to use Grid Layouts
 
 
 ### Acknowledgments
