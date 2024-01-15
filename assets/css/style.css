@@ -117,7 +117,7 @@ h1, h2, h3, h4 {
         border-radius: 15px;
 }
 
-.news-text {
+.news-text a {
     color: black;
 }
 
@@ -136,6 +136,10 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
+    color: black;
+}
+
+#plan-your-visit a {
     color: black;
 }
 
