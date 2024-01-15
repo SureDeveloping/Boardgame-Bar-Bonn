@@ -184,10 +184,6 @@ h1, h2, h3, h4 {
     color: black;
 }
 
-#finde-us iframe {
-    max-width: 235px;
-}
-
 /* Styling the Thanks Image, For the Contact page */
 .thanks-image {
     height: 450px;
@@ -279,10 +275,7 @@ footer {
 /* Media query: large or landscape phones (400px and up) */
 @media screen and (min-width: 412px) {
 
-#finde-us iframe {
-    max-width: 350px;
-}
-}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
