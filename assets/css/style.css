@@ -143,6 +143,10 @@ h1, h2, h3, h4 {
     color: black;
 }
 
+#plan-your-visit h3 {
+    text-align: center;
+}
+
 #game-fees {
     text-align: left;
     padding: 10px;
@@ -159,7 +163,7 @@ h1, h2, h3, h4 {
 
 .grid-game-fees {
     display: grid;
-    grid-template-columns: 170px 25px;
+    grid-template-columns: 80% 20%;
     grid-template-rows: auto;
     padding-top: 5px; 
     justify-content: center;
@@ -183,6 +187,10 @@ h1, h2, h3, h4 {
     color: black;
 }
 
+#opening-hours h3 {
+    text-align: center;
+}
+
 #grid-opening-hours {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -190,7 +198,6 @@ h1, h2, h3, h4 {
     padding-top: 5px; 
     justify-content: center;  
 }
-
 
 #finde-us {
     text-align: left;
@@ -200,6 +207,10 @@ h1, h2, h3, h4 {
     background-color: #7AECFF;
     margin: 20px 10px;
     color: black;
+}
+
+#finde-us h3{
+    text-align: center;
 }
 
 /* Styling the Thanks Image, For the Contact page */
