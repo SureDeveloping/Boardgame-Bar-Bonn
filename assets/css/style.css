@@ -153,11 +153,16 @@ h1, h2, h3, h4 {
     color: black;
 }
 
+#game-fees h3{
+    text-align: center;
+}
+
 .grid-game-fees {
     display: grid;
-    grid-template-columns: 180px 25px;
+    grid-template-columns: 170px 25px;
     grid-template-rows: auto;
-    padding-top: 5px;    
+    padding-top: 5px; 
+    justify-content: center;
 }
 
 #game-fees h4 {
