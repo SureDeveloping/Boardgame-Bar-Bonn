@@ -140,6 +140,38 @@ h1 {
     color: black;
 }
 
+#game-fees {
+    text-align: left;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+    color: black;   
+}
+
+#game-fees table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fees-type {
+    width: 300px;
+}
+
+.fees-amount {
+    width: 50px;
+}
+
+#game-fees th td {
+    padding: 10px;
+}
+
+#game-fees h4 {
+    padding-top: 5px;
+}
 
 
 
