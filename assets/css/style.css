@@ -94,7 +94,7 @@ h1, h2, h3, h4 {
 
 #about-text {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
@@ -103,7 +103,7 @@ h1, h2, h3, h4 {
 
 #news {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
@@ -123,7 +123,7 @@ h1, h2, h3, h4 {
 
 #plan-your-visit {
     text-align: left;
-    padding: 5px 5px 5px 20px;
+    padding: 10px 10px 10px 20px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
@@ -141,14 +141,13 @@ h1, h2, h3, h4 {
 
 #game-fees {
     text-align: left;
-    padding: 5px 5px 5px 20px;
+    padding: 10px;
     margin: 20px 10px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
     color: black;
 }
-
 
 .grid-game-fees {
     display: grid;
@@ -161,9 +160,13 @@ h1, h2, h3, h4 {
     padding-top: 10px;
 }
 
+#game-fees ul {
+    padding-left: 20px;
+}
+
 #opening-hours{
     text-align: left;
-    padding: 5px 5px 5px 20px;
+    padding: 10px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
@@ -173,7 +176,7 @@ h1, h2, h3, h4 {
 
 #finde-us {
     text-align: left;
-    padding: 5px 5px 5px 20px;
+    padding: 10px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
@@ -182,7 +185,7 @@ h1, h2, h3, h4 {
 }
 
 #finde-us iframe {
-    max-width: 220px;
+    max-width: 235px;
 }
 
 /* Styling the Thanks Image, For the Contact page */
