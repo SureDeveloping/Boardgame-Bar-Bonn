@@ -95,8 +95,18 @@ h1 {
 
 .sections-main-text {
     text-align: center;
+}
+
+#about-text {
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    border-color: black;
+    background-color: #7AECFF;
+    margin: 20px 0px;
 
 }
+
 
 
 /* Styling the Thanks Image, For the Contact page */
