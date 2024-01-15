@@ -113,6 +113,7 @@ h1 {
     border-radius: 15px;
     background-color: #7AECFF;
     margin: 20px 10px;
+    color: black;
 }
 #news img {
         width: 240px;
@@ -121,6 +122,23 @@ h1 {
         border-radius: 15px;
 }
 
+#plan-your-visit {
+    text-align: left;
+    padding: 5px 5px 5px 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+    color: black;
+}
+
+.visit-icons {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    color: black;
+}
 
 
 
