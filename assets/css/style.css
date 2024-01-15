@@ -68,7 +68,7 @@ main {
 }
 
 /* Styling the Bar Image with Headline Main Picture*/
-.main-image {
+#main-image {
     height: 300px;
     width: 100%;
     background: url("../images/bar-image.webp") no-repeat center center/cover;
