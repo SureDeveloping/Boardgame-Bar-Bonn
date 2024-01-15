@@ -141,35 +141,24 @@ h1, h2, h3, h4 {
 
 #game-fees {
     text-align: left;
-    padding: 5px;
+    padding: 5px 5px 5px 20px;
+    margin: 20px 10px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
-    margin: 20px 10px;
-    color: black;   
+    color: black;
 }
 
-#game-fees table {
-    border-collapse: collapse;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
-.fees-type {
-    width: 300px;
-}
-
-.fees-amount {
-    width: 50px;
-}
-
-#game-fees th td {
-    padding: 10px;
+.grid-game-fees {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    padding-top: 5px;    
 }
 
 #game-fees h4 {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 #opening-hours{
