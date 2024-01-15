@@ -225,6 +225,8 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Solved Bugs
+- The links in the main seaction change the color to black. I needed to adress the a elements. Then the color changed.
+
 - The textfilds in the form had no padding. Thatwhy you could not read the text very well. This came up in a mentoring session. And I added a pedding to all those input filds.
 
 - I tried to style the links and the logo in the header and to the cplor black. This was not successful with an Id. Here I had to address the a Element for the logo directly to solve the problem
