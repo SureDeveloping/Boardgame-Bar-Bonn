@@ -122,6 +122,10 @@ h1 {
         border-radius: 15px;
 }
 
+.news-text {
+    color: black;
+}
+
 #plan-your-visit {
     text-align: left;
     padding: 5px 5px 5px 20px;
@@ -281,15 +285,37 @@ footer {
 
 
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+/* Media query: large or landscape phones (400px and up) */
+@media screen and (min-width: 412px) {
 
-
-
-
-    
 #finde-us iframe {
-    max-width: 555px;
+    max-width: 350px;
 }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #news h3 { 
+        text-align: center;
+    }
+
+    #news p{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .news-text {
+        text-align: justify; 
+        text-align-last: left;
+        color: black;
+
+    }
+
+
+
+
+
 
 }
