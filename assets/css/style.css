@@ -278,3 +278,18 @@ footer {
 .social-icons, Footer {
     color: white;
 }
+
+
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+
+
+
+    
+#finde-us iframe {
+    max-width: 555px;
+}
+
+}
