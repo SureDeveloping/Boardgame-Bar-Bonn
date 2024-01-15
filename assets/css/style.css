@@ -26,7 +26,7 @@ header {
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px black;  
+    border-bottom: 3px solid black;  
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     order:0;    
@@ -251,7 +251,7 @@ display: row;
 
 footer {
     background-color: #4F6359;
-    box-shadow: 0 2px 2px black;
+    border-top: 3px solid black;
     color: white;  
 
 /* styley Footer Adress amd Contact, Footer */  
@@ -307,14 +307,14 @@ footer {
     }
 
     .news-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         text-align: justify; 
         text-align-last: left;
         color: black;
 
     }
-
-
-
 
 
 
