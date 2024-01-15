@@ -219,6 +219,10 @@ h1 {
     margin-bottom: 10px;
     }
 
+#contact-form input, textarea {
+    padding: 5px; 
+}
+
 .radio-buttons {
     display: flex;
     flex-direction: column;  
