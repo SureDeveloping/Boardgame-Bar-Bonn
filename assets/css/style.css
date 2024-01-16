@@ -82,25 +82,6 @@ h1, h2, h3, h4 {
     padding-top: 20px;
 }
 
-/* Styling Menu Page Main Picture*/
-#menu-image {
-    height: 200px;
-    width: 100%;
-    background: url("../images/menu-image.webp") no-repeat center center/cover;
-    font-size: 125%;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.headline-main-image {
-    /* Background color with 60% opacity*/
-    background-color: #7AFAC499; 
-    border-radius: 15px;
-    border: 3px solid black;
-    padding: 5px;
-    width: fit-content;
-    margin: auto;    
-}
 
 /* Styles the about section*/
 #about-text {
@@ -311,6 +292,67 @@ display: row;
     color: black;
     background-color: black; 
 }
+
+/* Styling Menu page*/
+/* Styling Menu Page Main Picture*/
+#menu-image {
+    height: 200px;
+    width: 100%;
+    background: url("../images/menu-image.webp") no-repeat center center/cover;
+    font-size: 125%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.headline-menu-image {
+    /* Background color with 60% opacity*/
+    background-color: #7AFAC499; 
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;    
+}
+
+/* Headline Menu */
+#drinks h2 {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+}
+
+#food h2 {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+}
+
+/* Lists on the menu */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Styles the Footer*/
 footer {
