@@ -176,12 +176,12 @@ h1, h2, h3, h4 {
 .grid-game-fees {
     display: flex;
     justify-content: center;
-    flex-direction: row; 
+    flex-direction: row;
     gap:60px;
 }
 
 .game-fees {
-    text-align: left;
+    text-align: left; 
 }
 
 .game-category {
@@ -207,7 +207,7 @@ text-align: left;
 }
 
 /* Styles the opening hours section*/
-#opening-hours{
+#open {
     text-align: left;
     padding: 10px;
     border: 3px solid black;
@@ -217,10 +217,24 @@ text-align: left;
     color: black;
 }
 
-#opening-hours h3 {
+#open h3 {
     text-align: center;
 }
 
+.open-times {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:60px;
+}
+
+.opening-day {
+    text-align: left;
+}
+
+.opening-hours{
+    text-align: left;
+}
 
 /* Styles the How you can fine us section*/
 #finde-us {
