@@ -313,10 +313,15 @@ footer {
 .news-all-containers {
     display: flex;
     justify-content: center;
-    flex-direction: row; 
 }
 
+.news-containers {
+display: flex;
+justify-content: center;
+flex-direction: row; 
+}
     .news-text {
-    text-align: left;  
+    text-align: left; 
 }
 }
+
