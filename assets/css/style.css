@@ -132,13 +132,14 @@ h1, h2, h3, h4 {
 
 /* Styles Plan your visit section*/
 #plan-your-visit {
-    text-align: left;
+    text-align: center;
     padding: 10px 10px 10px 20px;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
     margin: 20px 10px;
     color: black;
+    list-style-position: inside;
 }
 
 .visit-icons {
@@ -276,7 +277,7 @@ display: row;
     color: black;
     background-color: black; 
 }
-/* Styles the footer*/
+/* Styles the Footer*/
 footer {
     background-color: #4F6359;
     border-top: 3px solid black;
