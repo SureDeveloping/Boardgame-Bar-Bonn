@@ -269,8 +269,8 @@ The content of this project was written by Stephan Sure. The text was shortened 
 - All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
 - Block for selecting fonts on This site was built using [elementor.com](https://elementor.com/blog/font-pairing/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gad_source=1&gclid=CjwKCAiA-vOsBhAAEiwAIWR0TZQxN-AIz1eyDNUQYOHhJu9RspMr5r1hzE4jfTebOFsn_Fm1NPbsWhoC6N8QAvD_BwE)
 - How to build a website in german https://www.youtube.com/watch?v=9Byz4KfxCa4
-- How to use Grid Layouts
-
+- Youtube Video about grids https://www.youtube.com/watch?v=UuHvG-1Np0w&t=116s
+- Youtube Video about flexbox https://www.youtube.com/watch?v=dD8kgEOw1To
 
 ### Acknowledgments
 I like to Thank the follow person for the help during the project:
