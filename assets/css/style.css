@@ -181,16 +181,25 @@ h1, h2, h3, h4 {
 }
 
 .game-fees {
-    text-align: left
+    text-align: left;
 }
 
 .game-category {
-    text-align: left
+    text-align: left;
 }
 
+.liste-note {
+text-align: left;
+}
+
+.fees-note {
+    margin: auto;
+    width: 250px;
+}
 
 #game-fees h4 {
     padding-top: 10px;
+    text-align: center;
 }
 
 #game-fees ul {
@@ -329,4 +338,10 @@ flex-direction: row;
     .news-text {
     text-align: left; 
 }
+
+.fees-note {
+    margin: auto;
+    width: 360px;
+}
+
 }
