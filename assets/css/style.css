@@ -334,9 +334,22 @@ display: row;
 }
 
 /* Lists on the menu */
+.drinks {
+    text-align: left;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+}
 
+.drinks h3 {
+    text-align: center;
+}
 
-
+.drinks table {
+    width: 100%;
+}
 
 
 
