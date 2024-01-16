@@ -109,21 +109,14 @@ h1, h2, h3, h4 {
     border-radius: 15px;
     background-color: #7AECFF;
     margin: 20px 10px;
-    color: black;    
-    
+    color: black; 
 }
+
 #news img {
         width: 240px;
         height: auto;
         padding: 10px;
         border-radius: 15px;
-}
-
-.news-text {
-        width: 240px;
-        height: auto; 
-        margin-left: auto;
-        margin-right: auto;    
 }
 
 .news-all-containers {
@@ -314,21 +307,16 @@ footer {
     color: white;
 }
 
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    .news-all-containers {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 720px;
-        height: auto;
-        text-align: left;
-        justify-content: center;
-        padding: 10px;   
-    }
-    .news-text {
-        margin-left: 0;
-        margin-right: 0;
-}
+.news-all-containers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
 }
 
+    .news-text {
+    text-align: left;  
+}
+}
