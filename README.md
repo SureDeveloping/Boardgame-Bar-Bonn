@@ -238,6 +238,7 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Known unsolved Bugs
+ - For the Galaxy Fold cell phone, the prices in the "Our playing fees" section are not perfectly in line with the descriptions of the phones included. All other screen sizes look OK. Here I have to try to find a solution later with Flexbox via align-items. But I did not succeed. Therefore, the section may have to be created again as a table.   
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
