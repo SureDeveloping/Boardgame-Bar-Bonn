@@ -174,12 +174,20 @@ h1, h2, h3, h4 {
 }
 
 .grid-game-fees {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    grid-template-rows: auto;
-    padding-top: 5px; 
+    display: flex;
     justify-content: center;
+    flex-direction: row; 
+    gap:60px;
 }
+
+.game-fees {
+    text-align: left
+}
+
+.game-category {
+    text-align: left
+}
+
 
 #game-fees h4 {
     padding-top: 10px;
@@ -204,13 +212,6 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-#grid-opening-hours {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: auto;
-    padding-top: 5px; 
-    justify-content: center;  
-}
 
 /* Styles the How you can fine us section*/
 #finde-us {
