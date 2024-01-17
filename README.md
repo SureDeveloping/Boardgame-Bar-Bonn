@@ -3,7 +3,7 @@ Portfolio Project 1 – User SureDeveloping – Code Institute
 
 ## Contents 
 [Contens](#contens) \
-[User Experience (UX)](#user-experience) \
+[User Experience (UX)](#user-experience)\
 [Initial Situation](#initial-situation) \
 [User Story](#user-story)\
 [Design](#design) \
@@ -14,22 +14,19 @@ Portfolio Project 1 – User SureDeveloping – Code Institute
 [Features](#features) \
 [Accessibility](#accessibility) \
 [Technologies Used](#technologies-used) \
-[Software and frameworks Used](#Software-and-frameworks-used) \
-[Deployment & Local Development](#deployment-&-Local-development) \
+[Software and frameworks Used](#software-and-frameworks-used) \
+[Languages Used](#languages-used) \
 [Deployment](#deployment) \
-[Local Development](#local-development) \
 [Testing](#testing) \
 [Manual Testing](#manual-testing) \
 [Chrom Developer Tools](#chrom-developer-tools) \
 [Slack peer groupe rewiew](#slack-peer-groupe-rewiew) \
-[Wave Chrom extension](#wave-chrom-extension) \
 [W3C Validator](#w3c-validator) \
 [Solved Bugs](#solved-bugs) \
 [Known unsolved Bugs](#known-unsolved-bugs) \
 [Credits](#credits) \
 [Code Used](#code-used) \
 [Content on the website](#content-on-the-website) \
-[Media](#media) \
 [Learning Materials](#learning-materials) \
 [Acknowledgments](#acknowledgments)
 
@@ -173,39 +170,20 @@ Github - To store and deploy the website \
 Google Fonts - All fonts used are from google fonts \
 Font Awesome - All icons used are from Font Awesome \
 gauger.io/fonticon - To create a favicon
-Google Dev Tools - For troubleshooting, testing and fixing bugs \
+Google Dev Tools, and Lighthouse - For troubleshooting, testing and fixing bugs \
 Deepl - For translating text \
 ChatGPT3.5 - For summarizing self-written text content \
 Birme To change the image to webp format \
-Am I Responsive? To check if the page is responsive \ <span style="color:yellow"> PRÜFEN </
-Shields.io To add badges to the README Did I do this? \ <span style="color:yellow"> PRÜFEN </span>
+Am I Responsive? To check if the page is responsive \ 
 
-## Deployment & Local Development
-### Deployment
+## Deployment
 
-The live website was published via Github. Here are the instructions:
-
-1.	Log in (or sign up) to Github <span style="color:yellow"> PRÜFEN </span>
-2.	Search for the Boardgame-Bar-Bonn repository <span style="color:yellow"> PRÜFEN </span>
-3.	Use the Settings link <span style="color:yellow"> PRÜFEN </span>
-4.	Access the Pages section through the navigation bar on the left <span style="color:yellow"> PRÜFEN </span>
-5.	Within the Source section, opt for "main" from the branch selection menu, and choose "Root" from the folder selection menu <span style="color:yellow"> PRÜFEN </span>
-6.	Save your changes.  The active Github Pages site is now live and deployed at the displayed URL <span style="color:yellow"> PRÜFEN </span>
-
-### Local Development
-#### How to Fork
-To fork the Boardgame Bar Bonn repository: <span style="color:yellow"> PRÜFEN </span>
-1.	Log in (or sign up) to Github. <span style="color:yellow"> PRÜFEN </span>
-2.	Search for the project, SureDeveloping/Boardgame-Bar-Bonn <span style="color:yellow"> PRÜFEN </span>
-3.	Use the Fork button in the top right corner. <span style="color:yellow"> PRÜFEN </span>
-
-#### To clone the Boardgame Bar Bonn repository:
-1.	Log in (or sign up) to GitHub <span style="color:yellow"> PRÜFEN </span>
-2.	Search for the project, SureDeveloping/Boardgame-Bar-Bonn <span style="color:yellow"> PRÜFEN </span>
-3.	Use the code button and select if you would like to clone with HTTPS, SSH or GitHub CLI and copy the link <span style="color:yellow"> PRÜFEN </span>
-4.	Change the current working directory to the location you want to use for the cloned directory via the terminal <span style="color:yellow"> PRÜFEN </span>
-5.	Use the command 'git clone' and paste the link you copied in step 3 <span style="color:yellow"> PRÜFEN </span> 
-6.	Press enter <span style="color:yellow"> PRÜFEN </span>
+The project was codes with gipod and then deployed on Github. That is how the deployment was done.
+How I did the deployment:
+ - Log in at GitHub and navtigate to the repo of the project
+ - I clicked on Settings and navigated to "Github pages"
+ - There I seted the source from none to master.
+ - Then this link was deployed automatically: https://suredeveloping.github.io/Boardgame-Bar-Bonn/index.html
 
 ## Testing
 The page was tested on different ways and different errors came to light. These will now be discussed:
@@ -221,13 +199,8 @@ The page was tested on different ways and different errors came to light. These 
  - I comprimised the pictures.
  - I had the heading sizes out of order and changed it.
 
- - 
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
-
 ### Slack peer groupe rewiew:
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+I have submitted my project but have not received any feedback yet.
 
 ### W3C Validator
 I used thz W3C calidator to check the HTML and the CSS code on all pages of the website of the project.
@@ -246,9 +219,6 @@ HTML:
  - I hat a h3 putted in a table in the meunu html. Copy Past mistake.
  - I had twice the same id in the contact form in use.
 
-
-
-
 ### Solved Bugs
 - The links in the main seaction change the color to black. I needed to adress the a elements. Then the color changed.
 
@@ -260,14 +230,9 @@ HTML:
 
 - I made a mistake when linking to a feedback page that the user should see after filling out the contact form. Instead of using the method="get", I had incorrectly used post. Through research in Slack I came up with this solution.
 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
-
 ### Known unsolved Bugs
  - In the form it is possible to put numbers in the names fild. I google but i could not figure out how to fix this. I only found a solution with java script.
  - For the Galaxy Fold cell phone, the prices in the "Our playing fees" section are not perfectly in line with the descriptions of the phones included. All other screen sizes look OK. Here I have to try to find a solution later with Flexbox via align-items. But I did not succeed. Therefore, the section may have to be created again as a table.   
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
-
 
 ## Credits
 ### Code Used
@@ -277,21 +242,8 @@ HTML:
 -   I got the idea for my contact from the sign up form of the Love Running project.
 -   I used this code frome https://www.ithelps-digital.com to make the map responsive.
 
-
-
-
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
-
 ### Content on the website
 The content of this project was written by Stephan Sure. The text was shortened and summarized with the help of ChatGPT3.5 because it was too long at the beginning. All content is imaginary and fictional.
-
-### Media       
-<span style="color:yellow"> PRÜFEN </span> 
-    LINK   ![](LINK "Color palette3")\
-    LINK   ![](LINK "Color palette3")\
-    LINK   ![](LINK "Color palette3")\
-    LINK   ![](LINK "Color palette3")
 
 ### Learning Materials
 - All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
@@ -300,12 +252,14 @@ The content of this project was written by Stephan Sure. The text was shortened 
 - Youtube Video about grids https://www.youtube.com/watch?v=UuHvG-1Np0w&t=116s
 - Youtube Video about flexbox https://www.youtube.com/watch?v=dD8kgEOw1To
 - https://www.ithelps-digital.com/de/blog/anleitungen/google-maps-karte-responsive-einbinden
-
+- https://stackoverflow.com/
+- https://www.w3schools.com/css/
 
 ### Acknowledgments
 I like to Thank the follow person for the help during the project:
--   My Code Institute Mentor Anthony Ugwu
+- My Code Institute Mentor Anthony Ugwu and Spencer Barriball
 - The Tutor Support team at Code Institute
+- Kristyna my Cohort Facilitator for advice and mental support
 
 ** This project is for educational use only and was created for the Code Institute Module of User Centric front end development
 Created by Stephan Sure **
