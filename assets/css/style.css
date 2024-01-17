@@ -328,7 +328,7 @@ display: row;
     margin: auto;    
 }
 
-/* Headline Menu */
+/* Headline on Menu page */
 #drinks h2 {
     text-align: center;
     padding: 10px;
@@ -347,7 +347,7 @@ display: row;
     margin: 20px 10px;
 }
 
-/* Lists on the menu */
+/* tables on the menu page for dinks*/
 .drinks {
     text-align: left;
     padding: 10px;
@@ -361,10 +361,7 @@ display: row;
     text-align: center;
 }
 
-.drinks table {
-    width: 100%;
-}
-
+/* tables on the menu page for food*/
 .food {
     text-align: left;
     padding: 10px;
@@ -380,6 +377,16 @@ display: row;
 
 .food table {
     width: 100%;
+}
+
+/* adresses all td elments in all table in the meun page*/
+.hot-drinks-table, .non-alcoholic-drinks-table, .alcoholic-drinks-table, .burger-table, .fingerfood-table, .dips-table, .snacks-table,  td {
+    padding: 2px 0px 2px 0;
+}
+
+/* adresses cells with text in it at all table on the menu side*/
+.text-cell-width {
+    min-width: 180px;
 }
 
 
