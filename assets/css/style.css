@@ -361,6 +361,10 @@ display: row;
     text-align: center;
 }
 
+.drinks table {
+    width: 100%;
+}
+
 /* tables on the menu page for food*/
 .food {
     text-align: left;
@@ -389,6 +393,11 @@ display: row;
     min-width: 180px;
 }
 
+.euro-cell {
+    min-width: 50px;
+    text-align: right;
+
+}
 
 
 /* Styles the Footer*/
