@@ -91,17 +91,29 @@ The fonts come from Googlefonds and were used for the following fonts:
 Images used are from the site https://www.freepik.com/
 
 ### Wireframe
-I have created wireframes for mobile, tablet and desktop devices.
+At the beginning I had planned a website with 5 pages: Home, News, Menu and Contact and an additional "thanks page" as response for the contact form. But I realized that this is too much for a first project. Therefore the news page will come later in the first update. News are still on a section on the landing page to serve the need to provide News of the Bar to the visiter.
 
-Just screen shots from the onld and new version!
+I also planned the website with too many pictures and detailed information. Therefore the Homepage has been redesigned. The menu page stayed almost the same. There i did not to a new wireframe for that page.
 
-Links -  <span style="color:yellow"> Müssen noch erstellt werden </span> \
-Links - <span style="color:yellow"> Müssen noch erstellt werden </span> \
-Links - <span style="color:yellow"> Müssen noch erstellt werden </span> \
+Here are the Wireframes:
+
+Old Wireframe for the homepage <br>
+![](assets/images/readme-images/wireframe-old-home.png "Old wireframe for the homepage") <br>
+Old Wireframe for the news page <br>
+![](assets/images/readme-images/wireframe-old-news.png "Old wireframe for the homepage") <br>
+New Wireframe for the homepage <br>
+![](assets/images/readme-images/wireframe-new-home.png "New wireframe for the homepage" ) <br>
+Wireframe for the menu page <br>
+![](assets/images/readme-images/wireframe-menu.png "Wireframe for the contact menu") <br>
+Wireframe for the contact page <br>
+![](assets/images/readme-images/wireframe-contact.png "Wireframe for the contact page") <br>
+Wireframe for the thanks page <br>
+![](assets/images/readme-images/wireframe-thanks.png "Wireframe for the thanks page") <br>
+
 
 ### Features
-The website is planned as a multi-page project. These pages can be accessed via the navigation menu. There are the Home, News, Menu and Contat pages. 
-In addition, a thank you page has been created for sending a message.  <span style="color:yellow"> Wurde das Gemacht??? oder anders gelöst </span>
+The website is planned as a multi-page project. These pages can be accessed via the navigation menu. There are the Home, Menu and Contat pages. 
+In addition, a thank you page has been created for sending a message, after the user has filled and sended in the contact form.
 - Feature of all pages:
     - The header with a navigation bar is positioned in the top right corner. This navigation bar can be used to navigate the page. To the left is an icon of a pair of dice, matching the boardgames theme.  <span style="color:yellow"> Burger icon??? In the mobile view? </span>
 
