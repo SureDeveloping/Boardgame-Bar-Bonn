@@ -133,6 +133,7 @@ In addition, a thank you page has been created for sending a message.  <span sty
     - Is there the <span style="color:yellow"> PRÜFEN </span>
 
 - Future Implementations.
+    - Redesign the thank you page, for a better Look to the rest of the website.
     - At first I had planned to create my own news page. Due to my own schedule for this project I have discarded this.. Only the two latest news will be listed on the homepage. The own page will be realized in the future. 
     - There should be more detailed pictures of the bar with the individual rooms in a page with the title "Our premises". These pictures will be taken by a professional photographer and were not yet available at the start of the project. There will also be a 3D tour of the bar so that customers can get a better impression before their visit. 
     - A booking system is to be added where tables and seats can be booked and reserved online. This will make the staff's work easier and offer more convenience for guests, as they will receive a direct response and will not have to wait for feedback. At the same time, a member area is created. Java script and a backend are required for this.
@@ -229,9 +230,10 @@ HTML:
     index.html
  - I had some unsed bits of Code in the index Html for classes, Which i could just delite.
  - I had had " in the i element for the dice logo.
-    menu.html
- - I had a typo. I worte th insted of td in one table elment.
- - I hat a h3 putted in a table. Copy Past mistake.
+ - I hat a error in the iframe from the "map". Width 100& was not Ok. So i look for anthoer way to add the map.
+ - I had a typo. I worte th insted of td in one table elment in the mene html.
+ - I hat a h3 putted in a table in the meunu html. Copy Past mistake.
+ - I had twice the same id in the contact form in use.
 
 
 
