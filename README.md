@@ -200,23 +200,23 @@ To fork the Boardgame Bar Bonn repository: <span style="color:yellow"> PRÜFEN <
 The page was tested on different ways and different errors came to light. These will now be discussed:
 
 ### Manual Testing:
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+ - I tested all the links and the Form. Those are working cery well.
+ - Also I used def Toll check if the side is working on different screen sizes.
 
 ### Chrom Developer Tools
+- Also I used def Toll check if the side is working on different screen sizes.
+ I used Lighthouse to Test my Webside. This Opimisation I did afterwards:
+ - add an area lable to the link which is conetced with the dice logo.
+ - I comprimised the pictures.
+ - I had the heading sizes out of order and changed it.
 
+ - 
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Slack peer groupe rewiew:
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
-
-### Wave Chrom extension
-To Check the accesibility  <span style="color:yellow"> PRÜFEN </span> 
-
-### Web Disability Simulator
-To Check if the side works also for disabled people <span style="color:yellow"> PRÜFEN </span> 
 
 ### W3C Validator
 I used thz W3C calidator to check the HTML and the CSS code on all pages of the website of the project.
@@ -252,6 +252,7 @@ HTML:
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
 
 ### Known unsolved Bugs
+ - In the form it is possible to put numbers in the names fild. I google but i could not figure out how to fix this. I only found a solution with java script.
  - For the Galaxy Fold cell phone, the prices in the "Our playing fees" section are not perfectly in line with the descriptions of the phones included. All other screen sizes look OK. Here I have to try to find a solution later with Flexbox via align-items. But I did not succeed. Therefore, the section may have to be created again as a table.   
  - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
  - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
