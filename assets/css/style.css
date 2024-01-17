@@ -256,6 +256,22 @@ text-align: left;
     text-align: center;
 }
 
+/* To make the map responsive Code From https://www.ithelps-digital.com/de/blog/anleitungen/google-maps-karte-responsive-einbinden */
+.maps {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    }
+    
+    .maps iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+}
+
 /* Styling the contact side*/
 #contact-form {
     text-align: center;

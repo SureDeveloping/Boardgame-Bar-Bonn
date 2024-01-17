@@ -158,16 +158,14 @@ Balsamiq - To create a wireframe \
 Gitpod - To code the website \
 Git - For version control \
 Github - To store and deploy the website \
-Bootstrap - Did I use this? \ <span style="color:yellow"> PRÜFEN </span>
 Google Fonts - All fonts used are from google fonts \
 Font Awesome - All icons used are from Font Awesome \
 gauger.io/fonticon - To create a favicon
 Google Dev Tools - For troubleshooting, testing and fixing bugs \
 Deepl - For translating text \
 ChatGPT3.5 - For summarizing self-written text content \
-Tiny PNG To compress images.  Did I do that? \ <span style="color:yellow"> PRÜFEN </span>
 Birme To change the image to webp format \
-Am I Responsive? To check if the page is responsive \
+Am I Responsive? To check if the page is responsive \ <span style="color:yellow"> PRÜFEN </
 Shields.io To add badges to the README Did I do this? \ <span style="color:yellow"> PRÜFEN </span>
 
 ## Deployment & Local Development
@@ -221,8 +219,22 @@ To Check if the side works also for disabled people <span style="color:yellow"> 
 
 ### W3C Validator
 I used thz W3C calidator to check the HTML and the CSS code on all pages of the website of the project.
- - Hier Felt text <span style="color:yellow"> PRÜFEN </span> 
- - Hier fehlt text <span style="color:yellow"> PRÜFEN </span> 
+CSS:
+ - I had a unused calss in the css code. 
+ - I had a not in use curly bracket in for the Fotter section in the css code.
+ - I had twice a color rule for the same atribute in the code.
+ - I had a 0 in a padding code, which was to muche there.
+
+HTML:
+    index.html
+ - I had some unsed bits of Code in the index Html for classes, Which i could just delite.
+ - I had had " in the i element for the dice logo.
+    menu.html
+ - I had a typo. I worte th insted of td in one table elment.
+ - I hat a h3 putted in a table. Copy Past mistake.
+
+
+
 
 ### Solved Bugs
 - The links in the main seaction change the color to black. I needed to adress the a elements. Then the color changed.
@@ -249,6 +261,7 @@ I used thz W3C calidator to check the HTML and the CSS code on all pages of the 
 -   I used the Html code for the navbar from the Love running project.
 -   i used the Code for the social links in the footer from the Love running project.
 -   I got the idea for my contact from the sign up form of the Love Running project.
+-   I used this code frome https://www.ithelps-digital.com to make the map responsive.
 
 
 
@@ -272,6 +285,8 @@ The content of this project was written by Stephan Sure. The text was shortened 
 - How to build a website in german https://www.youtube.com/watch?v=9Byz4KfxCa4
 - Youtube Video about grids https://www.youtube.com/watch?v=UuHvG-1Np0w&t=116s
 - Youtube Video about flexbox https://www.youtube.com/watch?v=dD8kgEOw1To
+- https://www.ithelps-digital.com/de/blog/anleitungen/google-maps-karte-responsive-einbinden
+
 
 ### Acknowledgments
 I like to Thank the follow person for the help during the project:
