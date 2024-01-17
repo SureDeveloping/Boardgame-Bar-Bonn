@@ -115,34 +115,33 @@ Wireframe for the thanks page <br>
 The website is planned as a multi-page project. These pages can be accessed via the navigation menu. There are the Home, Menu and Contat pages. 
 In addition, a thank you page has been created for sending a message, after the user has filled and sended in the contact form.
 - Feature of all pages:
-    - The header with a navigation bar is positioned in the top right corner. This navigation bar can be used to navigate the page. To the left is an icon of a pair of dice, matching the boardgames theme.  <span style="color:yellow"> Burger icon??? In the mobile view? </span>
+    - The header with a navigation bar is positioned in the top right corner. This navigation bar can be used to navigate the page. To the left is an icon of a pair of dice, matching the boardgames theme.  
 
     - In addition, the footer is the same on all pages. The footer contains the address of the bar and the social media icon with links to instergram and facebook.
 
-- Home Page <span style="color:yellow"> PRÜFEN </span>
+- Home Page 
     - Below the header is a background image with a view of the bar. On the picture you can read the words "Welcome at the BBB Boardgame Bar Bonn".
     - The first section of the page is an About that briefly explains the bar and the concept.
     - Followed by the 2nd section which draws attention to the news and invites you to follow a link there for more information.
     - The 3rd section is an explanation of how to "plan your first visit". It is a 4 steps guide. Icons have been used here to lighten up the presentation, matching the points that are explained. The menu is link to a subpage and the list of the game collection to an external page. 
-    - The 4 section has information about the price in the bar. 
+    - The 4 section has information about the fees for playing a boardgame in the bar. 
     - The 5 section is the opening hours of the bar
-    - The 6 section is directions on how to find the bar.
-
-- News Page
-    - Below the header is a background image with a view of the bar. On the picture you can read the words "Boardgame Bar Bonn News". Below this, in the first section, is a text describing the last weekly offer with a corresponding picture. After that the previous offer can be seen in a separate section in the same scheme. The last section is the description of the latest new game on the site. Also with a detailed picture
-    - Burger icon??? In the mobile view? <span style="color:yellow"> PRÜFEN </span>
+    - The 6 section is directions on how to find the bar with an embedded googlemaps map.
+![](assets/images/readme-images/website-home-top.png "Screenshot homepage top") <br>
+![](assets/images/readme-images/website-home-bottom.png "Screenshot homepage bottom") <br>
 
 - Menu Page:
-    - On the Menu page, you are greeted by the Menu heading. The menu page has 2 sections. The 1st section contains all drinks. Here are 3 lists divided into hot drinks, cold drinks and alcoholic drinks. The 2nd section contains the dishes on offer. These are divided into the 4 categories Burger&Pizza, Fingerfood, Sancks and Dips
-    - Burger icon??? In the mobile view? <span style="color:yellow"> PRÜFEN </span>
+    - On the Menu page, is a hero image with a Headline "Boardgame Bar Bonn Menu". The menu page has 2 sections. The 1st section contains all drinks. Here are 3 lists divided into hot drinks, cold drinks and alcoholic drinks. The 2nd section contains the dishes on offer. These are divided into the 4 categories Burger, Fingerfood, Sancks and Dips
+![](assets/images/readme-images/website-menu.png "Screenshot menu page") <br>
 
 - Contact Page.
     - On the contact page there is a form in which you can enter your name, first name, e-mail address and telephone number. The phone number is optional. The other fields are mandatory. 
-    - Below this are radio buttons where you have to select the reason for the message. There is a choice. Reservation, Question Subscribe to newsletter, Request for a callback. This allows the messages to be pre-sorted by topic. This is followed by a text input field. With a send button underneath. Burger icon??? In the mobile view? <span style="color:yellow"> PRÜFEN </span>
+    - Below this are radio buttons where you have to select the reason for the message. There is a choice. Reservation, Question Subscribe to newsletter, Request for a callback. This allows the messages to be pre-sorted by topic. This is followed by a text input field. With a send button underneath.
+    ![](assets/images/readme-images/website-contact.png "Screenshot contact page") <br>
 
 - Thank You Page.
-    - Thank you message for the transmitter of the night. "Thank you for your message, we will reply as soon as possible"
-    - Is there the <span style="color:yellow"> PRÜFEN </span>
+    - Thank you message for send a text via the contact form. Thank you is written in the image. "for your message, we will reply as soon as possible" is wirten in the footer.
+    ![](assets/images/readme-images/website-thanks.png "Screenshot thanks page") <br>
 
 - Future Implementations.
     - Redesign the thank you page, for a better Look to the rest of the website.
