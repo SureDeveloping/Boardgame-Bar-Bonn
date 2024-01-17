@@ -415,6 +415,14 @@ footer {
     flex-wrap: wrap;
 }
 
+.all-food {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 .news-all-containers {
