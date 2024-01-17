@@ -142,12 +142,12 @@ In addition, a thank you page has been created for sending a message.  <span sty
     - If guests would like to purchase the games themselves in order to own one, an online store for board games is also planned to be linked to the website.
 
 ### Accessibility
-The accessibility of the website is achieved through the following features.
-- By using semantic HTML
-- By using descriptive alt attributes for images
-- By providing information for screen readers when icons without text are used. <span style="color:yellow"> PRÜFEN </span>
-- By using good color contrast throughout the website
-- By ensuring that screen readers recognize that the website supports this and that this is indicated. <span style="color:yellow"> PRÜFEN </span>
+To ensure Accessibility the following things were done:
+- I used semantic HTML
+- I used descriptive alt attributes for images
+- I provided information for screen readers
+- I used good color contrast and a tested color palette
+
 
 ## Technologies Used
 ### Languages Used
