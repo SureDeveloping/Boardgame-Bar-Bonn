@@ -351,6 +351,23 @@ display: row;
     width: 100%;
 }
 
+.food {
+    text-align: left;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #7AECFF;
+    margin: 20px 10px;
+}
+
+.food h3 {
+    text-align: center;
+}
+
+.food table {
+    width: 100%;
+}
+
 
 
 
