@@ -256,6 +256,43 @@ text-align: left;
     text-align: center;
 }
 
+/* Styling the contact side*/
+#contact-form {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+/* Pading for better readability of the entered text*/
+#contact-form input, textarea {
+    padding: 5px; 
+}
+
+/* Stylen of the Radio Buttons*/
+.radio-buttons {
+    display: flex;
+    flex-direction: column;  
+    padding: 5px 0;
+}
+/* Stylen of the Text input fild */
+#leave-message {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+/* Stylen of the Text input fild */
+.send-button {
+    font-size: 100%;
+    padding: 2px 
+}
+
+/* Stylen the Contact Form Headline */
+#contact-form hr {
+    border: none;
+    height: 2px;
+    background-color: black; 
+}
+
 /* Styling the Thanks Image, For the Contact page */
 .thanks-image {
     height: 70vh;
@@ -266,45 +303,6 @@ text-align: left;
 
 .thanks-message {
     text-align: center;
-}
-
-/* Styling the contact side*/
-#contact-form {
-    text-align: center;
-    margin-bottom: 10px;
-    }
-
-#contact-form input, textarea {
-    padding: 5px; 
-}
-
-.radio-buttons {
-    display: flex;
-    flex-direction: column;  
-    padding: 5px 0;
-}
-
-/* Styling the Button and the label together*/
-.radio-button-label {
-display: row; 
-}
-
-#leave-message {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-}
-
-.send-button {
-    font-size: 100%;
-    padding: 2px 
-}
-
-#contact-form hr {
-    border: none;
-    height: 2px;
-    color: black;
-    background-color: black; 
 }
 
 /* Styling Menu page*/
@@ -405,6 +403,7 @@ footer {
     background-color: #4F6359;
     border-top: 3px solid black;
     color: white;  
+}
 
 /* styles Footer Adress amd Contact, Footer */  
 #footer-adress {
@@ -415,12 +414,10 @@ footer {
 #footer-contas {
     width: 265px;
     margin: auto;
-    padding: 5px 0 10px;
+    padding: 5px 0px;
 }
-
 
 /* styley social media Links, Footer */
-}
 #social-network-links {
     text-align: center;
     padding: 10px 0;
