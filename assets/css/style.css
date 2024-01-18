@@ -281,6 +281,7 @@ text-align: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    min-height: 480px;
 }
 /* Styling Menu page*/
 /* Styling Menu Page Main Picture*/

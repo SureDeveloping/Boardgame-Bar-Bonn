@@ -225,16 +225,13 @@ HTML:
 
 ### Solved Bugs
 - I wanted to cahnge the color in the main section to change into black. I needed to adress the a elements. Then the color changed. Before i used an Id which was not specific enought. 
-
 - The textfilds in the form had no padding. Thatwhy you could not read the text very well. This came up in a mentoring session. And I added a pedding to all those input filds.
-
 - I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the a Element.
-
 - I made a mistake when linking to a feedback page that the user should see after filling out the contact form. Instead of using the method="get", I had incorrectly used post. Through research in Slack I came up with this solution.
+- I have a link on my home page opening hours, which should lead to the corresponding section. Unfortunately, the link jumps so low that you can't see the desired content. I was able to find a solution on the page www.seo-kueche.de. So I moved the jump point via css. 
 
 ### Known unsolved Bugs
- - I have a link on my home page opening hours, which should lead to the corresponding section. Unfortunately, the link jumps so low that you can't see the desired content. It is hidden by the header. I was able to find a solution on the page www.seo-kueche.de. I tried to move the jump point via css. Unfortunately this did not work for on the deployed website. As a solution, the entire opening time section could be moved to the contact page. Then the entire link would be no longer necessary. Or look for an alternative method on the Internet to implement the move.    
- - In the form it is possible to put numbers in the names fild. I google but i could not figure out how to fix this. I only found a solution with java script.
+- In the form it is possible to put numbers in the names fild. I google but i could not figure out how to fix this. I only found a solution with java script.
  - For the Galaxy Fold cell phone, the prices in the "Our playing fees" section are not perfectly in line with the descriptions of the phones included. All other screen sizes look OK. Here I have to try to find a solution later with Flexbox via align-items. But I did not succeed. Therefore, the section may have to be created again as a table.   
 
 ## Credits
