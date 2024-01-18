@@ -241,6 +241,14 @@ text-align: left;
     text-align: left;
 }
 
+.anker-position::before {
+content: "";
+height: 120px;
+margin-top: -120px;
+visibility: hidden;
+}
+
+
 /* Styles the How you can fine us section*/
 #finde-us {
     text-align: left;

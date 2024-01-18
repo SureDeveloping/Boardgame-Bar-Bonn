@@ -54,20 +54,21 @@ The most important information is therefore the concept of the bar, opening hour
 #### The Goal of a first-time visitor to the website:
 - Would like to know what concept the bar has.
 - Wants to know where the bar is located.
-- Wants to know when it is open- Wants to know what food and drinks are available there
-- Would like to know what games are available
-- Would like to know how much it costs to play there
+- Wants to know when it is open.
+- Wants to know what food and drinks are available there.
+- Would like to know what games are available.
+- Would like to know how much it costs to play there.
 - Would like to be able to contact the bar for questions.
 - Would like links to the bar's social media.
 
 #### Goal of second first-time visitor to the website
-- Would like to see the address and opening hours again to plan his visit
-- Would like to make contact to reserve a table
-- Would like to subscribe to the newsletter
+- Would like to see the address and opening hours again to plan his visit.
+- Would like to make contact to reserve a table.
+- Would like to subscribe to the newsletter.
 
 #### Frequent Visitor Goals
-- Would like to know what news there is. Offers or new games
-- Would like to make contact to reserve a table
+- Would like to know what news there is. Offers or new games.
+- Would like to make contact to reserve a table.
 
 ## Design
 ### Color Scheme
@@ -88,7 +89,7 @@ The fonts come from Googlefonds and were used for the following fonts:
 Images used are from the site https://www.freepik.com/
 
 ### Wireframe
-At the beginning I had planned a website with 5 pages: Home, News, Menu and Contact and an additional "thanks page" as response for the contact form. But I realized that this is too much for a first project. Therefore the news page will come later in the first update. News are still on a section on the landing page to serve the need to provide News of the Bar to the visiter.
+At the beginning I had planned a website with 5 pages: Home, News, Menu and Contact and an additional "thanks page" as response for the contact form. But I realized that this is too much for a first project. Therefore the news page will come later in the first update. News are still shown on the landing page to serve the need to provide News of the Bar to the visiter.
 
 I also planned the website with too many pictures and detailed information. Therefore the Homepage has been redesigned. The menu page stayed almost the same. There i did not to a new wireframe for that page.
 
@@ -231,6 +232,7 @@ HTML:
 - I made a mistake when linking to a feedback page that the user should see after filling out the contact form. Instead of using the method="get", I had incorrectly used post. Through research in Slack I came up with this solution.
 
 ### Known unsolved Bugs
+ - I have a link on my home page opening hours, which should lead to the corresponding section. Unfortunately, the link jumps so low that you can't see the desired content. It is hidden by the header. I was able to find a solution on the page www.seo-kueche.de. I tried to move the jump point via css. Unfortunately this did not work for very small phones. I tried again via Media Queries to solve the problem. This did not work. As a solution, the entire opening time section could be moved to the contact page. Then the entire link would be no longer necessary. Or look for an alternative method on the Internet to implement the move.    
  - In the form it is possible to put numbers in the names fild. I google but i could not figure out how to fix this. I only found a solution with java script.
  - For the Galaxy Fold cell phone, the prices in the "Our playing fees" section are not perfectly in line with the descriptions of the phones included. All other screen sizes look OK. Here I have to try to find a solution later with Flexbox via align-items. But I did not succeed. Therefore, the section may have to be created again as a table.   
 
@@ -241,9 +243,13 @@ HTML:
 -   i used the Code for the social links in the footer from the Love running project.
 -   I got the idea for my contact from the sign up form of the Love Running project.
 -   I used this code frome https://www.ithelps-digital.com to make the map responsive.
+-   I used code to move the skip point of my contact link. https://www.seo-kueche.de/blog/html-anker-als-sprungmarken-setzen/
 
 ### Content on the website
 The content of this project was written by Stephan Sure. The text was shortened and summarized with the help of ChatGPT3.5 because it was too long at the beginning. All content is imaginary and fictional.
+Inspiration comes from the pages:
+- https://www.wuerfelundzucker.de/
+- https://brettspielecafekoeln.de/board-game-cafe-in-cologne/
 
 ### Learning Materials
 - All content from Online Course in Full Stack Software Developmen especially videos about Portfolio Project 1 and ReadME from Code Instituet
