@@ -91,21 +91,21 @@ Images used are from the site https://www.freepik.com/
 ### Wireframe
 At the beginning I had planned a website with 5 pages: Home, News, Menu and Contact and an additional "thanks page" as response for the contact form. But I realized that this is too much for a first project. Therefore the news page will come later in the first update. News are still shown on the landing page to serve the need to provide News of the Bar to the visiter.
 
-I also planned the website with too many pictures and detailed information. Therefore the Homepage has been redesigned. The menu page stayed almost the same. There i did not to a new wireframe for that page.
+I also planned the website with too many pictures and detailed information. Therefore the Homepage has been redesigned. The menu page stayed almost the same. There i did not do a new wireframe for that page.
 
 Here are the Wireframes:
 
-Old Wireframe for the homepage <br>
+Old Wireframe for the homepage: <br>
 ![](assets/images/readme-images/wireframe-old-home.png "Old wireframe for the homepage") <br>
-Old Wireframe for the news page <br>
+Old Wireframe for the news page: <br>
 ![](assets/images/readme-images/wireframe-old-news.png "Old wireframe for the homepage") <br>
-New Wireframe for the homepage <br>
+New Wireframe for the homepage: <br>
 ![](assets/images/readme-images/wireframe-new-home.png "New wireframe for the homepage" ) <br>
-Wireframe for the menu page <br>
+Wireframe for the menu page: <br>
 ![](assets/images/readme-images/wireframe-menu.png "Wireframe for the contact menu") <br>
-Wireframe for the contact page <br>
+Wireframe for the contact page: <br>
 ![](assets/images/readme-images/wireframe-contact.png "Wireframe for the contact page") <br>
-Wireframe for the thanks page <br>
+Wireframe for the thanks page: <br>
 ![](assets/images/readme-images/wireframe-thanks.png "Wireframe for the thanks page") <br>
 
 
@@ -113,37 +113,36 @@ Wireframe for the thanks page <br>
 The website is planned as a multi-page project. These pages can be accessed via the navigation menu. There are the Home, Menu and Contat pages. 
 In addition, a thank you page has been created for sending a message, after the user has filled and sended in the contact form.
 - Feature of all pages:
-    - The header with a navigation bar is positioned in the top right corner. This navigation bar can be used to navigate the page. To the left is an icon of a pair of dice, matching the boardgames theme.  
+    - The header with a navigation bar is positioned in the top right corner. This navigation bar can be used to navigate the page. To the left is an icon of a pair of dice, matching the boardgames theme. The cube also has a link that leads to the homepage
 
     - In addition, the footer is the same on all pages. The footer contains the address of the bar and the social media icon with links to instergram and facebook.
 
 - Home Page 
     - Below the header is a background image with a view of the bar. On the picture you can read the words "Welcome at the BBB Boardgame Bar Bonn".
-    - The first section of the page is an About that briefly explains the bar and the concept.
-    - Followed by the 2nd section which draws attention to the news and invites you to follow a link there for more information.
-    - The 3rd section is an explanation of how to "plan your first visit". It is a 4 steps guide. Icons have been used here to lighten up the presentation, matching the points that are explained. The menu is link to a subpage and the list of the game collection to an external page. 
-    - The 4 section has information about the fees for playing a boardgame in the bar. 
-    - The 5 section is the opening hours of the bar
-    - The 6 section is directions on how to find the bar with an embedded googlemaps map.
+    - The first section of the page is an about section that briefly explains the bar and the concept.
+    - Followed by a section which draws attention to the news. There is a link which brings you to the menu page and an external link brings you to a list of all boardgames.
+    - The 4rd section is an explanation of how to "plan your first visit". It is a 4 steps guide. Icons have been used here to lighten up the presentation, matching the points that are explained. The menu page is linked, the opening hours section and an external link to the game collection is used.
+    - The 5 section has information about the fees for playing a boardgame in the bar. 
+    - The 6 section is the opening hours of the bar
+    - The 7 section is directions on how to find the bar with an embedded googlemaps map.
 ![](assets/images/readme-images/website-home-top.png "Screenshot homepage top") <br>
 ![](assets/images/readme-images/website-home-bottom.png "Screenshot homepage bottom") <br>
 
 - Menu Page:
-    - On the Menu page, is a hero image with a Headline "Boardgame Bar Bonn Menu". The menu page has 2 sections. The 1st section contains all drinks. Here are 3 lists divided into hot drinks, cold drinks and alcoholic drinks. The 2nd section contains the dishes on offer. These are divided into the 4 categories Burger, Fingerfood, Sancks and Dips
+    - On the Menu page, is a hero image with a headline "Boardgame Bar Bonn Menu". The menu page has 2 sections. The 1st section contains all drinks. Here are 3 lists divided into hot drinks, cold drinks and alcoholic drinks. The 2nd section contains the dishes on offer. These are divided into the 4 categories Burger, Fingerfood, Sancks and Dips
 ![](assets/images/readme-images/website-menu.png "Screenshot menu page") <br>
 
 - Contact Page.
     - On the contact page there is a form in which you can enter your name, first name, e-mail address and telephone number. The phone number is optional. The other fields are mandatory. 
-    - Below this are radio buttons where you have to select the reason for the message. There is a choice. Reservation, Question Subscribe to newsletter, Request for a callback. This allows the messages to be pre-sorted by topic. This is followed by a text input field. With a send button underneath.
+    - Below this are radio buttons where you have to select the reason for the message. There is a choice. Reservation, Question Subscribe to newsletter, Request for a callback. This allows the messages to be pre-sorted by topic. This is followed by a text input field. With a send button underneath. After Sending the Message the user will get a response.
     ![](assets/images/readme-images/website-contact.png "Screenshot contact page") <br>
 
 - Thank You Page.
-    - Thank you message for send a text via the contact form. Thank you is written in the image. "for your message, we will reply as soon as possible" is wirten in the footer.
+    - Thank you message for send a text via the contact form. "Thank you We will be in touch shortly" is written in the middel of the side.
     ![](assets/images/readme-images/website-thanks.png "Screenshot thanks page") <br>
 
 - Future Implementations.
-    - Redesign the thank you page, for a better Look to the rest of the website.
-    - At first I had planned to create my own news page. Due to my own schedule for this project I have discarded this.. Only the two latest news will be listed on the homepage. The own page will be realized in the future. 
+    - At first I had planned to create seperate news page. This should be be realized in the future. 
     - There should be more detailed pictures of the bar with the individual rooms in a page with the title "Our premises". These pictures will be taken by a professional photographer and were not yet available at the start of the project. There will also be a 3D tour of the bar so that customers can get a better impression before their visit. 
     - A booking system is to be added where tables and seats can be booked and reserved online. This will make the staff's work easier and offer more convenience for guests, as they will receive a direct response and will not have to wait for feedback. At the same time, a member area is created. Java script and a backend are required for this.
     - The games are recorded in a separate database and guests can search for specific categories and have new games suggested to them. The games can also be loaned out for a limited period of time so that guests can play the games at home. All games in the game library are to be presented in course presentations. In addition, the rules should be explained in a video which is linked to the database entry. These instructions will be linked to the games in the store via a QR code. The guest can therefore also scan the QR code in the store and watch the instructions and video.
@@ -157,13 +156,11 @@ To ensure Accessibility the following things were done:
 - I provided information for screen readers
 - I used good color contrast and a tested color palette
 
-
 ## Technologies Used
 ### Languages Used
 HTML and CSS were used for this project.
 
 ### Software and frameworks Used
-
 Balsamiq - To create a wireframe \
 Gitpod - To code the website \
 Git - For version control \
@@ -178,41 +175,43 @@ Birme To change the image to webp format \
 Am I Responsive? To check if the page is responsive \ 
 
 ## Deployment
-
-The project was codes with gipod and then deployed on Github. That is how the deployment was done.
-How I did the deployment:
- - Log in at GitHub and navtigate to the repo of the project
+The project was codes with gipod and then deployed on Github. That is how the deployment was done:
+ - I loged in at GitHub and navtigate to the repo of the project
  - I clicked on Settings and navigated to "Github pages"
- - There I seted the source from none to master.
- - Then this link was deployed automatically: https://suredeveloping.github.io/Boardgame-Bar-Bonn/index.html
+ - There I seted the source of Deploy from a branch and set the branch from none to main and clicked save.
+ - Then this link was deployed automatically: https://suredeveloping.github.io/Boardgame-Bar-Bonn/
 
 ## Testing
-The page was tested on different ways and different errors came to light. These will now be discussed:
+The page was tested on different ways and different errors came to light.
 
 ### Manual Testing:
- - I tested all the links and the Form. Those are working cery well.
- - Also I used def Toll check if the side is working on different screen sizes.
+ I tested all the links and the Form. This was done during the hole prozess. This was done repeatedly throughout the project. A detailed description of the bugs can be found in solved and unsolved bugs.
 
 ### Chrom Developer Tools
-- Also I used def Toll check if the side is working on different screen sizes.
- I used Lighthouse to Test my Webside. This Opimisation I did afterwards:
- - add an area lable to the link which is conetced with the dice logo.
+ - I used Def-tolls to check if the side is working on different screen sizes.
+ - I used Lighthouse to test my webside. This opimisation I did afterwards:
+ - I add an area lable to the link which is conetced with the dice logo.
  - I comprimised the pictures.
  - I had the heading sizes out of order and changed it.
+
+Image of the Lighthouse test result:
+![](assets/images/readme-images/lighthouse-test.png "Lighthouse test") <br>
 
 ### Slack peer groupe rewiew:
 I have submitted my project but have not received any feedback yet.
 
 ### W3C Validator
-I used thz W3C calidator to check the HTML and the CSS code on all pages of the website of the project.
+I used the W3C calidator to check the HTML and the CSS code on all pages of the website of the project.
 CSS:
  - I had a unused calss in the css code. 
  - I had a not in use curly bracket in for the Fotter section in the css code.
  - I had twice a color rule for the same atribute in the code.
  - I had a 0 in a padding code, which was to muche there.
 
+After that the projcts has no more errors:
+![](assets/images/readme-images/css-validator.png "CSS validator")
+
 HTML:
-    index.html
  - I had some unsed bits of Code in the index Html for classes, Which i could just delite.
  - I had had " in the i element for the dice logo.
  - I hat a error in the iframe from the "map". Width 100& was not Ok. So i look for anthoer way to add the map.
@@ -220,12 +219,14 @@ HTML:
  - I hat a h3 putted in a table in the meunu html. Copy Past mistake.
  - I had twice the same id in the contact form in use.
 
+ After that the projcts has no more errors:
+ The Waring came up after i uses an aria-lable for the dice. This was a suggestion from Lighthouse to improve my accessibility.
+![](assets/images/readme-images/html-validation.png "Screenshot thanks page")
+
 ### Solved Bugs
-- The links in the main seaction change the color to black. I needed to adress the a elements. Then the color changed.
+- I wanted to cahnge the color in the main section to change into black. I needed to adress the a elements. Then the color changed. Before i used an Id which was not specific enought. 
 
 - The textfilds in the form had no padding. Thatwhy you could not read the text very well. This came up in a mentoring session. And I added a pedding to all those input filds.
-
-- I tried to style the links and the logo in the header and to the cplor black. This was not successful with an Id. Here I had to address the a Element for the logo directly to solve the problem
 
 - I tried to style the social links in the footer white. Initially again via an Id. in the Ul element. This was not successful either. The task could be solved via a class directly in the a Element.
 
@@ -238,7 +239,7 @@ HTML:
 
 ## Credits
 ### Code Used
--   I used the Asterisk wildcard selector from from the Love running project.
+-   I used the Asterisk wildcard selector from the Love running project.
 -   I used the Html code for the navbar from the Love running project.
 -   i used the Code for the social links in the footer from the Love running project.
 -   I got the idea for my contact from the sign up form of the Love Running project.
@@ -267,8 +268,8 @@ I like to Thank the follow person for the help during the project:
 - The Tutor Support team at Code Institute
 - Kristyna my Cohort Facilitator for advice and mental support
 
-** This project is for educational use only and was created for the Code Institute Module of User Centric front end development
-Created by Stephan Sure **
+** This project is for educational use only and was created for the Code Institute 
+course Full stack software development by Stephan Sure **
 
 
 
