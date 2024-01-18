@@ -233,7 +233,7 @@ HTML:
 - I made a mistake when linking to a feedback page that the user should see after filling out the contact form. Instead of using the method="get", I had incorrectly used post. Through research in Slack I came up with this solution.
 
 ### Known unsolved Bugs
- - I have a link on my home page opening hours, which should lead to the corresponding section. Unfortunately, the link jumps so low that you can't see the desired content. It is hidden by the header. I was able to find a solution on the page www.seo-kueche.de. I tried to move the jump point via css. Unfortunately this did not work for very small phones. I tried again via Media Queries to solve the problem. This did not work. As a solution, the entire opening time section could be moved to the contact page. Then the entire link would be no longer necessary. Or look for an alternative method on the Internet to implement the move.    
+ - I have a link on my home page opening hours, which should lead to the corresponding section. Unfortunately, the link jumps so low that you can't see the desired content. It is hidden by the header. I was able to find a solution on the page www.seo-kueche.de. I tried to move the jump point via css. Unfortunately this did not work for on the deployed website. As a solution, the entire opening time section could be moved to the contact page. Then the entire link would be no longer necessary. Or look for an alternative method on the Internet to implement the move.    
  - In the form it is possible to put numbers in the names fild. I google but i could not figure out how to fix this. I only found a solution with java script.
  - For the Galaxy Fold cell phone, the prices in the "Our playing fees" section are not perfectly in line with the descriptions of the phones included. All other screen sizes look OK. Here I have to try to find a solution later with Flexbox via align-items. But I did not succeed. Therefore, the section may have to be created again as a table.   
 
@@ -245,6 +245,7 @@ HTML:
 -   I got the idea for my contact from the sign up form of the Love Running project.
 -   I used this code frome https://www.ithelps-digital.com to make the map responsive.
 -   I used code to move the skip point of my contact link. https://www.seo-kueche.de/blog/html-anker-als-sprungmarken-setzen/
+-   The hint and the code with the container came from my mentor Spencer Barriball, to make the look of the     website nicer for big screens.
 
 ### Content on the website
 The content of this project was written by Stephan Sure. The text was shortened and summarized with the help of ChatGPT3.5 because it was too long at the beginning. All content is imaginary and fictional.

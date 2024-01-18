@@ -1,13 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 /* General Styles of the Body*/
 body {
     min-height: 100vh;
@@ -17,13 +15,12 @@ body {
     color: black;
     font-family: 'PT Sans', sans-serif;
 }
-
 .container {
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
+    background-color: #7AFAC4;
 }
-
 header {
     background-color: #9BB0A5;
     padding: 0 1rem;
@@ -36,9 +33,7 @@ header {
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     order:0;    
-    position: fixed;
 }
-
 /* Styles the lopgo in the Header, Top Left*/
 #dice-logo {
     height: auto;
@@ -65,20 +60,15 @@ header a {
 .current-page {
     background-color: #22B5FF;
 }
-
 main {
     background-color: #7AFAC4;
     /* Enlarges the main element so that the footer is pushed downwards*/
-    flex: 1 0 auto; 
-     /* Add margin at the top to prevent content from being covered by the header */
-     margin-top: 60px;     
+    flex: 1 0 auto;     
 }
-
 h1, h2, h3, h4 {
     font-family: 'PT Sans Narrow', sans-serif;
     color: black;
 } 
-
 /* Styling the Bar Image with Headline Main Picture*/
 #main-image {
     height: 300px;
@@ -88,7 +78,6 @@ h1, h2, h3, h4 {
     text-align: center;
     padding-top: 20px;
 }
-
 .headline-main-image {
     /* Background color with 60% opacity*/
     background-color: #7AFAC499; 
@@ -98,7 +87,6 @@ h1, h2, h3, h4 {
     width: fit-content;
     margin: auto;    
 }
-
 /* Styles the about section*/
 #about-text {
     text-align: center;
@@ -108,7 +96,6 @@ h1, h2, h3, h4 {
     background-color: #7AECFF;
     margin: 20px 10px;
 }
-
 /* Styles the News section*/
 #news {
     text-align: center;
@@ -119,24 +106,20 @@ h1, h2, h3, h4 {
     margin: 20px 10px;
     color: black; 
 }
-
 #news img {
     width: 240px;
     height: auto;
     padding: 10px;
     border-radius: 15px;
 }
-
 .news-all-containers {
     display: flex;
     justify-content: center;
     flex-direction: column;     
 }
-
 .news-text a {
     color: black;   
 }
-
 /* Styles Plan your visit section*/
 #plan-your-visit {
     text-align: center;
@@ -148,7 +131,6 @@ h1, h2, h3, h4 {
     color: black;
     list-style-position: inside;
 }
-
 .visit-icons {
     text-decoration: none;
     display: flex;
@@ -156,15 +138,12 @@ h1, h2, h3, h4 {
     padding-top: 5px;
     color: black;
 }
-
 #plan-your-visit a {
     color: black;
 }
-
 #plan-your-visit h3 {
     text-align: center;
 }
-
 /* Styles the Gane Fees Section*/
 #game-fees {
     text-align: left;
@@ -175,44 +154,35 @@ h1, h2, h3, h4 {
     background-color: #7AECFF;
     color: black;
 }
-
 #game-fees h3 {
     text-align: center;
 }
-
 .grid-game-fees {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap:60px;
 }
-
 .game-fees {
     text-align: left; 
 }
-
 .game-category {
     text-align: left;
 }
-
 .liste-note {
 text-align: left;
 }
-
 .fees-note {
     margin: auto;
     width: 250px;
 }
-
 #game-fees h4 {
     padding-top: 10px;
     text-align: center;
 }
-
 #game-fees ul {
     padding-left: 20px;
 }
-
 /* Styles the opening hours section*/
 #open {
     text-align: left;
@@ -223,26 +193,21 @@ text-align: left;
     margin: 20px 10px;
     color: black;
 }
-
 #open h3 {
     text-align: center;
 }
-
 .open-times {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap:60px;
 }
-
 .opening-day {
     text-align: left;
 }
-
 .opening-hours {
     text-align: left;
 }
-
 /* Move the finale Anker point of the opening hours link up */
 .anker-position::before {
     content: "";
@@ -250,7 +215,6 @@ text-align: left;
     margin-top: -120px;
     visibility: hidden;
 }
-
 /* Styles the How you can fine us section*/
 #finde-us {
     text-align: left;
@@ -258,14 +222,12 @@ text-align: left;
     border: 3px solid black;
     border-radius: 15px;
     background-color: #7AECFF;
-    margin: 20px 10px;
+    margin: 10px 10px;
     color: black;
 }
-
 #finde-us h3 {
     text-align: center;
 }
-
 /* To make the map responsive Code From https://www.ithelps-digital.com/de/blog/anleitungen/google-maps-karte-responsive-einbinden */
 .maps {
     height: 0;
@@ -281,45 +243,38 @@ text-align: left;
     bottom: 0;
     width: 100%; 
 }
-
 /* Styling the contact side*/
 #contact-form {
     text-align: center;
     margin-bottom: 10px;
     }
-
 /* Pading for better readability of the entered text*/
 #contact-form input, textarea {
     padding: 5px; 
 }
-
 /* Stylen of the Radio Buttons*/
 .radio-buttons {
     display: flex;
     flex-direction: column;  
     padding: 5px 0;
 }
-
 /* Stylen of the Text input fild */
 #leave-message {
     display: flex;
     flex-direction: column;
     padding: 5px;
 }
-
 /* Stylen of the Text input fild */
 .send-button {
     font-size: 100%;
     padding: 2px 
 }
-
 /* Stylen the Contact Form Headline */
 #contact-form hr {
     border: none;
     height: 2px;
     background-color: black; 
 }
-
 /* Styling the Thanks Image, For the Contact page */
 .thanks-message {
     text-align: center;
@@ -327,7 +282,6 @@ text-align: left;
     justify-content: center;
     flex-direction: column;
 }
-
 /* Styling Menu page*/
 /* Styling Menu Page Main Picture*/
 #menu-image {
@@ -338,7 +292,6 @@ text-align: left;
     text-align: center;
     padding-top: 20px;
 }
-
 .headline-menu-image {
     /* Background color with 60% opacity*/
     background-color: #7AFAC499; 
@@ -348,7 +301,6 @@ text-align: left;
     width: fit-content;
     margin: auto;    
 }
-
 /* Headline on Menu page */
 #drinks h2 {
     text-align: center;
@@ -358,7 +310,6 @@ text-align: left;
     background-color: #7AECFF;
     margin: 20px 10px;
 }
-
 #food h2 {
     text-align: center;
     padding: 10px;
@@ -367,7 +318,6 @@ text-align: left;
     background-color: #7AECFF;
     margin: 20px 10px;
 }
-
 /* tables on the menu page for dinks*/
 .drinks {
     text-align: left;
@@ -377,15 +327,12 @@ text-align: left;
     background-color: #7AECFF;
     margin: 20px 10px;
 }
-
 .drinks h3 {
     text-align: center;
 }
-
 .drinks table {
     width: 100%;
 }
-
 /* tables on the menu page for food*/
 .food {
     text-align: left;
@@ -395,49 +342,40 @@ text-align: left;
     background-color: #7AECFF;
     margin: 20px 10px;
 }
-
 .food h3 {
     text-align: center;
 }
-
 .food table {
     width: 100%;
 }
-
 /* adresses all td elments in all table in the meun page*/
 .hot-drinks-table, .non-alcoholic-drinks-table, .alcoholic-drinks-table, .burger-table, .fingerfood-table, .dips-table, .snacks-table,  td {
     padding: 2px 0px 2px 0;
 }
-
 /* adresses cells with text in it at all table on the menu side*/
 .text-cell-width {
     min-width: 180px;
 }
-
 .euro-cell {
     min-width: 50px;
     text-align: right;
 }
-
 /* Styles the Footer*/
 footer {
     background-color: #4F6359;
     border-top: 3px solid black;
     color: white;  
 }
-
 /* styles Footer Adress amd Contact, Footer */  
 #footer-adress {
     text-align: center;
     padding: 5px;
 }
-
 #footer-contas {
     width: 265px;
     margin: auto;
     padding: 5px 0px;
 }
-
 /* styley social media Links, Footer */
 #social-network-links {
     text-align: center;
@@ -448,11 +386,9 @@ footer {
     color: white;
     text-align: center;
 }
-
 .social-icons, Footer {
     color: white;
 }
-
 /* Media query: larger divices (540px and up) */
 @media screen and (min-width: 540px) {
     .all-drinks {
@@ -461,7 +397,6 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .all-food {
         display: flex;
         justify-content: space-around;
@@ -469,24 +404,20 @@ footer {
         flex-wrap: wrap;
     }
 }
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     .news-all-containers {
         display: flex;
         justify-content: center;
     }
-
     .news-containers {
         display: flex;
         justify-content: center;
         flex-direction: row; 
     }
-
     .news-text {
         text-align: left; 
     }
-
     .fees-note {
         margin: auto;
         width: 360px;
