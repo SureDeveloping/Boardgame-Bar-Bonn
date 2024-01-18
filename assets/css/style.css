@@ -310,15 +310,11 @@ text-align: left;
 }
 
 /* Styling the Thanks Image, For the Contact page */
-.thanks-image {
-    height: 70vh;
-    width: auto;
-    background: url("../images/thank-you.webp") no-repeat center center/cover;
-    position: relative;
-} 
-
 .thanks-message {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Styling Menu page*/
