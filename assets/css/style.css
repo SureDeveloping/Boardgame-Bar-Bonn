@@ -9,14 +9,14 @@
 }
 
 /* General Styles of the Body*/
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        /* Standart text color */
-        color: black;
-        font-family: 'PT Sans', sans-serif;
-    }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Standart text color */
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
 
 header {
     background-color: #9BB0A5;
@@ -40,35 +40,33 @@ header {
     display: flex; 
     align-items: center;
     padding: 5px 0;
-  }
+}
   
-  header a {
-      text-decoration: none; 
-      color: black;
-  }
+header a {
+    text-decoration: none; 
+    color: black;
+}
   
   
-  /* Styles the Navbar in the Header*/
-  #navbar li {
-      display: flex;
-      font-size: 130%;
-      float: right;
-      padding: 0 5px;       
-  }
+/* Styles the Navbar in the Header*/
+#navbar li {
+    display: flex;
+    font-size: 130%;
+    float: right;
+    padding: 0 5px;       
+}
   
-  /* Styles the current open, and visible page link*/
-  
-  .current-page {
-      background-color: #22B5FF;
-  }
+/* Styles the current open, and visible page link*/
+.current-page {
+    background-color: #22B5FF;
+}
 
 main {
-   background-color: #7AFAC4;
+    background-color: #7AFAC4;
     /* Enlarges the main element so that the footer is pushed downwards*/
     flex: 1 0 auto; 
      /* Add margin at the top to prevent content from being covered by the header */
-     margin-top: 60px;
-       
+     margin-top: 60px;     
 }
 
 h1, h2, h3, h4 {
@@ -96,7 +94,6 @@ h1, h2, h3, h4 {
     margin: auto;    
 }
 
-
 /* Styles the about section*/
 #about-text {
     text-align: center;
@@ -119,16 +116,16 @@ h1, h2, h3, h4 {
 }
 
 #news img {
-        width: 240px;
-        height: auto;
-        padding: 10px;
-        border-radius: 15px;
+    width: 240px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .news-all-containers {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;     
 }
 
 .news-text a {
@@ -174,7 +171,7 @@ h1, h2, h3, h4 {
     color: black;
 }
 
-#game-fees h3{
+#game-fees h3 {
     text-align: center;
 }
 
@@ -237,17 +234,17 @@ text-align: left;
     text-align: left;
 }
 
-.opening-hours{
+.opening-hours {
     text-align: left;
 }
 
+/* Move the finale Anker point of the opening hours link up */
 .anker-position::before {
-content: "";
-height: 120px;
-margin-top: -120px;
-visibility: hidden;
+    content: "";
+    height: 120px;
+    margin-top: -120px;
+    visibility: hidden;
 }
-
 
 /* Styles the How you can fine us section*/
 #finde-us {
@@ -260,7 +257,7 @@ visibility: hidden;
     color: black;
 }
 
-#finde-us h3{
+#finde-us h3 {
     text-align: center;
 }
 
@@ -270,9 +267,9 @@ visibility: hidden;
     overflow: hidden;
     padding-bottom: 50%;
     position: relative;
-    }
+}
     
-    .maps iframe {
+.maps iframe {
     height: 100%;
     left: 0;
     position: absolute;
@@ -297,6 +294,7 @@ visibility: hidden;
     flex-direction: column;  
     padding: 5px 0;
 }
+
 /* Stylen of the Text input fild */
 #leave-message {
     display: flex;
@@ -414,9 +412,7 @@ visibility: hidden;
 .euro-cell {
     min-width: 50px;
     text-align: right;
-
 }
-
 
 /* Styles the Footer*/
 footer {
@@ -452,43 +448,42 @@ footer {
     color: white;
 }
 
-
 /* Media query: larger divices (540px and up) */
 @media screen and (min-width: 540px) {
-.all-drinks {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    .all-drinks {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
-.all-food {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    .all-food {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-.news-all-containers {
-    display: flex;
-    justify-content: center;
-}
+    .news-all-containers {
+        display: flex;
+        justify-content: center;
+    }
 
-.news-containers {
-display: flex;
-justify-content: center;
-flex-direction: row; 
-}
+    .news-containers {
+        display: flex;
+        justify-content: center;
+        flex-direction: row; 
+    }
+
     .news-text {
-    text-align: left; 
-}
+        text-align: left; 
+    }
 
-.fees-note {
-    margin: auto;
-    width: 360px;
-}
-
+    .fees-note {
+        margin: auto;
+        width: 360px;
+    }
 }
