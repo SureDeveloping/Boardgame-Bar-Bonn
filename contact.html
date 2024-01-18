@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<body>
 
+<body>
     <!-- Header -->
     <header>
         <a href="index.html" id="dice-logo"> 
@@ -39,65 +39,56 @@
         </nav>
     </header>
 
-
-
     <!-- Main content -->
-    <main>
-       
+    <main>   
         <section id="contact-form">
 
-        <form method="get" action="thanks.html"> 
-            <h1>
-                Please fill the form and send us your Message:
-            </h1>
-            <hr>
+            <form method="get" action="thanks.html"> 
+                <h1>
+                    Please fill the form and send us your Message:
+                </h1>
 
-            <label for="first_name">First Name:</label> <br>
-            <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Required" required>
-                
-            <br>
+                <hr>
 
-            <label for="last_name">Last Name:</label> <br>
-            <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Required" required>
+                <label for="first_name">First Name:</label> <br>
+                <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Required" required> <br>
+                              
+                <label for="last_name">Last Name:</label> <br>
+                <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Required" required> <br>
 
-            <br>
+                <label for="email_address">Email Address:</label> <br>
+                <input type="email" name="email_address" id="email_address" class="text-input" placeholder="Required" required> <br>
+                           
+                <label for="phone_number">Phone Number:</label> <br>
+                <input type="number" name="phone_number" id="phone_number" class="text-input"> <br>
 
-            <label for="email_address">Email Address:</label> <br>
-            <input type="email" name="email_address" id="email_address" class="text-input" placeholder="Required" required>
-                
-            <br>
-
-            <label for="phone_number">Phone Number:</label> <br>
-            <input type="number" name="phone_number" id="phone_number" class="text-input">
-
-            <br>
-                    <div class="radio-buttons">
+            
                     
-                        <div class="radio-button-label">
+                <div class="radio-buttons">
+                    
+                    <div class="radio-button-label">
                         <input type="radio" name="message_reason" id="reservation" value="reservation" class="radio_input" required checked>
                         <label for="reservation">Reservation</label>
-                        </div>  
+                    </div>  
                         
-                        <div class="radio-button-label">
+                    <div class="radio-button-label">
                         <input type="radio" name="message_reason" id="question" value="question" class="radio_input" required>
                         <label for="question">Question</label>
-                        </div>
+                    </div>
                         
-                        <div class="radio-button-label">                        
+                    <div class="radio-button-label">                        
                         <input type="radio" name="message_reason" id="newsletter" value="newsletter" class="radio_input" required>
                         <label for="newsletter">Subscribe to the Newsletter</label>
-                        </div>
+                    </div>
                         
-                        <div class="radio-button-label">                        
+                    <div class="radio-button-label">                        
                         <input type="radio" name="message_reason" id="callback" value="callback" class="radio_input" required>
                         <label for="callback">Request for Callback</label>
-                         </div>
+                    </div>
                         
-                        <div class="radio-button-label">                        
+                    <div class="radio-button-label">                        
                         <input type="radio" name="message_reason" id="other" value="other" class="radio_input" required>
                         <label for="other">Other Reason</label>
-                        </div>
-
                     </div>
 
                     <div id="leave-message">  
@@ -105,52 +96,56 @@
                         <textarea id="text" name="text" cols="35" rows="8" placeholder="Required" required></textarea> 	
                     </div> 
 
-            <button type="submit" class="send-button">Submit your Message</button>
-        </form>
+                </div> 
 
+                <button type="submit" class="send-button">Submit your Message</button>
+            </form>
         </section>
-
 
     </main>
 
 
 
-      <!-- Footer -->
-      <footer>
+    <!-- Footer -->
+    <footer>
 
         <div id="footer-adress"> 
             <p> Boardgame Bar Bonn, <br>
-            Rheingasse 7, <br>
-            53113 Bonn  </p> 
-            </div>
+                Rheingasse 7, <br>
+                53113 Bonn  
+            </p> 
+        </div>
 
-            <div id="footer-contas">
-            <p>   e-mail:  info@boardgame-bar-bonn.de <br>
-            phone:  12345 / 6789 <br>
+        <div id="footer-contas">
+            <p> e-mail:  info@boardgame-bar-bonn.de <br>
+                phone:  12345 / 6789 <br>
             </p>
-            </div>
-             
+        </div>
+         
         <hr>
-
+        
+        <!-- Social Network links -->
         <ul id="social-network-links">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook claas social-icons"></i></a>
+                    <i class="fa-brands fa-facebook claas social-icons"></i>
+                </a>
             </li>
 
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram social-icons"></i></a>
+                    <i class="fa-brands fa-instagram social-icons"></i>
+                </a>
             </li>
 
         </ul>
 
-      </footer>
+    </footer>
     
-<!-- Font Awesome kit -->
-<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
